@@ -45,7 +45,7 @@ a{
 a:hover{
   text-decoration:none;
   color:#7574a9;
-  opacity:0.6;
+  opacity:0.8;
 }
 
 .header-image{
@@ -58,6 +58,7 @@ a:hover{
   padding:20px 20px 20px 20px;
 }
 code{
+  text-align:left;
   background-color:transparent;
   color:#777777;
 }
