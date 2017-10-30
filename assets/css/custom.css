@@ -11,68 +11,226 @@
   color:#d6d6d6;
 }
 .pink{
-  color:#d29ea3;
+  color:#FAE3D7;
 }
-.blue{
-  color:#7574a9;
+.red{
+  color:#4F2335;
+}
+.purple{
+  color:#A3A3CE;
 }
 
 body{
   font-family:'Lato',Helvetica,Arial,sans-serif;
-  background-image:url('../img/background.png');
-  background-repeat:repeat;
+  background-color:#F2F2F2;
+  color:#262626;
 }
-hr{
-  border-color:#b2b2b2;
-  border-width:1px;
-  margin-top:50px;
-  margin-bottom:50px;
-}
-.h1, h1{
+h1{
   font-weight:bold;
-  font-size: 2.2rem;
+  font-size:45px;
+  line-height:45px;
 }
-.h3, h3 {
-  font-size: 1.6rem;
-}
-p{
-  font-size:1.3rem;
+h2{
+  font-size:28px;
+  margin-top:10px;
   line-height:40px;
 }
+h3{
+  font-size:12px;
+  margin-top:20px;
+}
+p{
+  line-height:30px;
+}
 a{
-  color:#7574a9;
+  color:#7F7F7F;
 }
 a:hover{
-  text-decoration:none;
-  color:#7574a9;
-  opacity:0.8;
+  color:#A3A3CE;
+}
+.holder{
+  margin-top:4%;
 }
 
-.header-image{
-  margin-bottom:40px;
-  border:solid #b2b2b2 1px;
+/* SIDEBAR */
+.sidebar-logo{
+  height:120px;
+  width:120px;
+  margin:0 auto;
+  text-align:center;
 }
 
-#body-code{
-  background-color:#b2b2b2;
+/* TILED HOME PAGE */
+.tile{
+  position:relative;
+  display:inline-block;
+  height:250px;
+  width:250px;
+  float:left;
+  margin-right:20px;
+  margin-bottom:20px;
+  border-radius:25px;
   padding:20px 20px 20px 20px;
+  background-color:#FAE3D7;
+  color:#262626;
 }
-code{
-  text-align:left;
-  background-color:transparent;
+.tile:hover{
+  background-color:#A3A3CE;
+  color:#f2f2f2;
+}
+.tile-no-hover:hover{
+  background-color:#FAE3D7;
+  color:#262626;
+}
+.tile-mega{
+  background-image:url("../img/wall.JPG");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center center;
+  height:250px;
+  width:520px;
+  border:0px;
+  color:#f2f2f2;
+}
+.tile-mega:hover{
+  background-image:none;
+  background-color:#4F2335;
+}
+.tile-header{
+  font-weight:bold;
+  font-size:35px;
+  line-height:35px;
+}
+.tile-subheader{
+  font-weight:lighter;
+  font-size:35px;
+  line-height:55px;
+}
+.tile-spacer{
+  height:6px;
+  width:50px;
+  margin-top:20px;
+  margin-bottom:20px;
+  background-color:#f2f2f2;
+}
+.tile-link-icon{
+  /* Fix this shit */
+  position: absolute;
+  right:15px;
+  bottom:15px;
+}
+.tile-social-holder{
+  margin-top:110px;
+}
+#tile-service{
+  background-color:#4F2335;
+  color:#f2f2f2;
+}
+#tile-service:hover{
+  background-color:#FAE3D7;
+  color:#262626;
+}
+#tile-development{
+  background-color:#A3A3CE;
+  color:#f2f2f2;
+}
+#tile-development:hover{
+  background-color:#4F2335;
+}
+.social-icon{
+  color:#262626;
+  font-size:20px;
+  margin-right:10px;
+}
+.social-icon:hover{
   color:#777777;
 }
-
-.links-icon{
-  font-size:20px;
-  margin-right:15px;
+.tile-copyright{
+  margin-top:30px;
+  line-height:15px;
+  font-size:12px;
 }
-.links-icon:last-child{
+
+/* PAGE LAYOUT */
+.holder .row{
+  margin-bottom:40px;
+}
+.welton{
+  float:left;
+  margin-right:20px;
+  margin-top:30px;
+  margin-bottom:30px;
+  border-radius:25px;
+  padding:20px 20px 20px 20px;
+  background-color:#FAE3D7;
+  color:#262626;
+  width:100%;
+}
+.welton:last-child{
   margin-right:0px;
 }
-a.links-icon{
-  color:#7574a9;
+.page-social-wrap{
+  margin:0 auto;
+  text-align:center;
 }
-a.links-icon:hover{
-  opacity:0.6;
+.page-about-me{
+  float:left;
+  margin-right:20px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1{
+    margin-top:30px;
+    font-size:30px;
+    line-height:30px;
+  }
+  h2{
+    font-size:20px;
+    margin-top:10px;
+    line-height:30px;
+  }
+  h3{
+    font-size:12px;
+    margin-top:20px;
+  }
+
+  /* TILED HOME PAGE */
+  .tile{
+    height:160px;
+    width:160px;
+    margin-right:10px;
+    margin-bottom:10px;
+  }
+  .tile-mega{
+    height:250px;
+    width:330px;
+  }
+  .tile-header{
+    font-size:20px;
+    line-height:20px;
+    margin-bottom:20px;
+  }
+  .tile-mega .tile-header{
+    margin-top:20px;
+    font-size:30px;
+    line-height:30px;
+  }
+  .tile-mega .tile-subheader{
+    font-size:30px;
+    line-height:40px;
+  }
+  .tile-spacer{
+    height:2px;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+  .tile-social-holder{
+    margin-top:0px;
+  }
+  .tile-copyright{
+    line-height:10px;
+  }
+  .tile-copyright{
+    font-size:10px;
+  }
 }
