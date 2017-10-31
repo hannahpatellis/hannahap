@@ -11,7 +11,7 @@
   color:#d6d6d6;
 }
 .pink{
-  color:#FAE3D7;
+  color:#F9D9D9;
 }
 .red{
   color:#4F2335;
@@ -71,7 +71,7 @@ a:hover{
   margin-bottom:20px;
   border-radius:25px;
   padding:20px 20px 20px 20px;
-  background-color:#FAE3D7;
+  background-color:#F9D9D9;
   color:#262626;
 }
 .tile:hover{
@@ -79,7 +79,7 @@ a:hover{
   color:#f2f2f2;
 }
 .tile-no-hover:hover{
-  background-color:#FAE3D7;
+  background-color:#F9D9D9;
   color:#262626;
 }
 .tile-mega{
@@ -127,7 +127,7 @@ a:hover{
   color:#f2f2f2;
 }
 #tile-service:hover{
-  background-color:#FAE3D7;
+  background-color:#F9D9D9;
   color:#262626;
 }
 #tile-development{
@@ -162,7 +162,7 @@ a:hover{
   margin-bottom:30px;
   border-radius:25px;
   padding:20px 20px 20px 20px;
-  background-color:#FAE3D7;
+  background-color:#F9D9D9;
   color:#262626;
   width:100%;
 }
