@@ -1,3 +1,7 @@
+.container-fluid{
+  margin-top:4%;
+}
+
 .black{
   color:#262626;
 }
@@ -49,9 +53,9 @@ a{
 a:hover{
   color:#A3A3CE;
 }
-.holder{
+/* .holder{
   margin-top:4%;
-}
+} */
 
 /* SIDEBAR */
 .sidebar-logo{
