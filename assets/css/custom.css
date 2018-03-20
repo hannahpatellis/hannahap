@@ -47,6 +47,9 @@ p{
   font-size:17px;
   line-height:30px;
 }
+small{
+  font-size:10px;
+}
 a{
   color:#7F7F7F;
 }
