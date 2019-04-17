@@ -77,7 +77,7 @@ a:hover{
   float:left;
   margin-right:20px;
   margin-bottom:20px;
-  border-radius:20px;
+  border-radius:10px;
   padding:20px 20px 20px 20px;
   background-color:#F9D9D9;
   color:#262626;
@@ -172,7 +172,7 @@ a:hover{
   margin-right:20px;
   margin-top:30px;
   margin-bottom:30px;
-  border-radius:20px;
+  border-radius:10px;
   padding:20px 20px 20px 20px;
   background-color:#A3A3CE;
   color:#262626;
