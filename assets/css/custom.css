@@ -14,15 +14,15 @@
 .lgray{
   color:#d6d6d6;
 }
-.pink{
+/* .pink{
   color:#F9D9D9;
-}
+} */
 .red{
   color:#4F2335;
 }
-.purple{
+/* .purple{
   color:#A3A3CE;
-}
+} */
 
 body{
   font-family:'Lato',Helvetica,Arial,sans-serif;
@@ -48,7 +48,7 @@ p{
   line-height:30px;
 }
 small{
-  font-size:10px;
+  font-size:11px;
 }
 a{
   color:#7F7F7F;
@@ -69,6 +69,12 @@ a:hover{
 }
 
 /* TILED HOME PAGE */
+.bodyholder{
+  margin-bottom: 50px;
+}
+.description{
+  display: none;
+}
 .tile{
   position:relative;
   display:inline-block;
@@ -77,36 +83,35 @@ a:hover{
   float:left;
   margin-right:20px;
   margin-bottom:20px;
-  border-radius:10px;
+  border-radius: 7px;
   padding:20px 20px 20px 20px;
-  background-color:#F9D9D9;
+  border: 4px solid #4F2335;
   color:#262626;
 }
 .tile:hover{
-  background-color:#A3A3CE;
+  border: 4px solid #4F2335;
+  background-color: #4F2335;
   color:#f2f2f2;
 }
-.tile-comingsoon:hover{
-  background-color:#d6d6d6!important;
-  color:#f2f2f2!important;
+.tile-comingsoon:hover {
+  background-color: #777777;
+  opacity: 0.2;
 }
 .tile-no-hover:hover{
-  background-color:#F9D9D9;
+  background:none;
   color:#262626;
 }
 .tile-mega{
-  background-image:url("../img/wall.JPG");
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position:center center;
+  background: none;
   height:250px;
   width:520px;
   border:0px;
-  color:#f2f2f2;
+  color:#262626;
 }
 .tile-mega:hover{
   background-image:none;
   background-color:#4F2335;
+  border:none!important;
 }
 .tile-header{
   font-weight:bold;
@@ -124,42 +129,43 @@ a:hover{
   width:50px;
   margin-top:20px;
   margin-bottom:20px;
-  background-color:#f2f2f2;
+  background-color:#4F2335;
+}
+.tile-tag {
+  font-size: 13px;
+}
+.tile:hover .tile-spacer {
+  background-color: #f2f2f2;
 }
 .tile-link-icon{
-  /* Fix this shit */
   position: absolute;
   right:15px;
   bottom:15px;
+  display: flex;
+  justify-content: center;
+}
+span.title-link-about {
+  font-size: 12px;
+  padding-right: 5px;
+  margin-bottom: 2px;
+  font-weight: bold;
 }
 .tile-social-holder{
-  margin-top:110px;
-}
-#tile-service{
-  background-color:#4F2335;
-  color:#f2f2f2;
-}
-#tile-service:hover{
-  background-color:#F9D9D9;
-  color:#262626;
-}
-#tile-development{
-  background-color:#A3A3CE;
-  color:#f2f2f2;
-}
-#tile-development:hover{
-  background-color:#4F2335;
+  margin-top:90px;
 }
 .social-icon{
   color:#262626;
-  font-size:20px;
-  margin-right:10px;
+  font-size:26px;
+  margin-right:12px;
 }
 .social-icon:hover{
   color:#777777;
 }
+.social-icon:last-child {
+  margin-right:0px;
+}
 .tile-copyright{
-  margin-top:30px;
+  margin-top:25px;
   line-height:15px;
   font-size:12px;
 }
@@ -168,20 +174,70 @@ a:hover{
 .holder .row{
   margin-bottom:40px;
 }
+span.header-tag {
+  border: 1px solid #d6d6d6;
+  border-radius: 7px;
+  background-color: #d6d6d6;
+  color: #262626;
+  padding: 6px 6px 6px 6px;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+span.header-tag-dev {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 7px;
+  margin-right: 0px;
+}
+span.header-tag-dev-plus {
+  background: none;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-right: 0px;
+}
+span.header-tag-dev-plus:last-of-type {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-right: 10px;
+}
+section.portfolio-row h1 {
+  font-size: 32px;
+}
+section.portfolio-row h2 {
+  font-size: 26px;
+}
+section.portfolio-row h3 {
+  font-size: 15px;
+}
 .welton{
-  float:left;
   margin-right:20px;
-  margin-top:30px;
-  margin-bottom:30px;
-  border-radius:10px;
+  margin-top:2rem;
+  margin-bottom:2rem;
+  border-radius: 7px;
   padding:20px 20px 20px 20px;
-  background-color:#A3A3CE;
-  color:#262626;
+  background-color:#262626;
+  color:#F2F2F2;
   width:100%;
+}
+.welton-social {
+  background-color: #4F2335;
+  margin-bottom: 100px;
+}
+.welton-social .social-icon {
+  color: #F2F2F2;
+  margin-right: 15px;
+}
+.welton-social .social-icon:hover{
+  color:#d6d6d6;
 }
 .welton-resume{
   border: 2px solid #d6d6d6;
   background-color: #F2F2F2;
+  color: #262626;
   font-size:20px;
 }
 .welton:last-child{
@@ -194,6 +250,9 @@ a:hover{
 .page-about-me{
   float:left;
   margin-right:20px;
+  border-right: 3px solid #4F2335;
+  border-bottom: 3px solid #4F2335;
+  border-bottom-right-radius: 7px;
 }
 img.page-img-full{
   display:block;
@@ -211,7 +270,19 @@ img.page-img-part{
   margin-bottom:30px;
 }
 
+@media only screen and (min-width: 576px) {
+  .col-sm-12 {
+    flex: none;
+  }
+}
+
 @media only screen and (max-width: 770px) {
+  .bodyholder{
+    width:330px;
+    padding:0 0 0 0;
+    margin:0 auto;
+    margin-bottom: 50px;
+  }
   h1{
     margin-top:30px;
     font-size:30px;
@@ -230,13 +301,22 @@ img.page-img-part{
     margin-left:20px;
     margin:0 auto;
   }
+  .sidebar{
+    margin-bottom:20px;
+  }
 
   /* TILED HOME PAGE */
   .tile{
     height:160px;
     width:160px;
-    margin-right:10px;
+    margin-right:5px;
     margin-bottom:10px;
+  }
+  .tile:nth-child(2){
+    margin-right:0px;
+  }
+  .tile-no-hover {
+    padding: 15px 5px 0px 15px
   }
   .tile-mega{
     height:330px;
@@ -264,27 +344,26 @@ img.page-img-part{
     margin-top:0px;
   }
   .tile-copyright{
+    margin-top: 15px;
     line-height:10px;
-  }
-  .tile-copyright{
     font-size:10px;
   }
-}
-@media only screen and (max-width: 760px) {
-  .bodyholder{
-    width:330px;
-    margin:0 0 0 0;
-    padding:0 0 0 0;
-    margin:0 auto;
+  .social-icon{
+    font-size:23px;
   }
-  .sidebar{
-    margin-bottom:20px;
+
+  span.header-tag-holder {
+	  display: block;
+	  margin-bottom: 10px;
   }
-  .tile{
-    margin-right:5px;
-    margin-bottom:5px;
+
+  section.portfolio-row h1 {
+    font-size: 29px;
   }
-  .tile:nth-child(2){
-    margin-right:0px;
+  section.portfolio-row h2 {
+    font-size: 24px;
+  }
+  section.portfolio-row h3 {
+    font-size: 13px;
   }
 }
