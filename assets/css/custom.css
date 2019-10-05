@@ -164,6 +164,9 @@ span.title-link-about {
 .social-icon:last-child {
   margin-right:0px;
 }
+br#page-about-social-break {
+  display: none;
+}
 .tile-copyright{
   margin-top:25px;
   line-height:15px;
@@ -247,12 +250,13 @@ section.portfolio-row h3 {
   margin:0 auto;
   text-align:center;
 }
-.page-about-me{
+img.page-about-me{
   float:left;
   margin-right:20px;
   border-right: 3px solid #4F2335;
   border-bottom: 3px solid #4F2335;
   border-bottom-right-radius: 7px;
+  width: 240px;
 }
 img.page-img-full{
   display:block;
@@ -350,6 +354,13 @@ img.page-img-part{
   }
   .social-icon{
     font-size:23px;
+  }
+  br#page-about-social-break {
+    display: block;
+  }
+
+  img.page-about-me {
+    width: 160px;
   }
 
   span.header-tag-holder {
