@@ -113,6 +113,23 @@ a:hover{
   background-color:#4F2335;
   border:none!important;
 }
+.tile-resize {
+  min-height: 240px;
+  width: 100%;
+  border-radius: 7px;
+  padding:20px 20px 20px 20px;
+  border: 4px solid #4F2335;
+  color:#262626;
+  margin-bottom: 20px;
+}
+.tile-resize:hover {
+  border: 4px solid #4F2335;
+  background-color: #4F2335;
+  color:#f2f2f2;
+}
+a.no-underline:hover {
+  text-decoration: none!important;
+}
 .tile-header{
   font-weight:bold;
   font-size:35px;
@@ -134,7 +151,7 @@ a:hover{
 .tile-tag {
   font-size: 13px;
 }
-.tile:hover .tile-spacer {
+.tile:hover .tile-spacer, .tile-resize:hover .tile-spacer {
   background-color: #f2f2f2;
 }
 .tile-link-icon{

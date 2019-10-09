@@ -1,62 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Alexandria 'Hannah' I. Patellis">
-    <meta name="description" content="Hannah A. Patellis is a UX/UI Designer and Software Developer based in Atlanta, Georgia">
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <link rel="icon" href="../favicon.ico" type="image/x-icon">
-    <title>Garden | Hannah A. Patellis | Designer + Developer </title>
-    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="../assets/css/featherlight.css" />
-    <link type="text/css" rel="stylesheet" href="../assets/css/fonts.css">
-    <link type="text/css" rel="stylesheet" href="../assets/css/custom.css">
-  </head>
-  <body>
 
-    <div class="container-fluid">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Alexandria 'Hannah' I. Patellis">
+  <meta name="description"
+    content="Hannah A. Patellis is a UX/UI Designer, Software Developer, and Technologist based in Atlanta, Georgia">
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <title>Garden | Hannah A. Patellis | Designer + Developer </title>
+  <link type="text/css" rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="../assets/css/featherlight.css" />
+  <link type="text/css" rel="stylesheet" href="../assets/css/fonts.css">
+  <link type="text/css" rel="stylesheet" href="../assets/css/custom.css">
+</head>
 
-      <div class="row">
-        <aside class="col-md-2 col-sm-12 sidebar holder">
-          <div class="sidebar-logo">
-            <a href="/" title="Home"><img src="../assets/img/logo.svg" alt="Hannah A. Patellis logo" /></a>
+<body>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <aside class="col-md-2 col-sm-12 sidebar holder">
+        <div class="sidebar-logo">
+          <a href="/" title="Home"><img src="../assets/img/logo.svg" alt="Hannah A. Patellis logo" /></a>
+        </div>
+      </aside>
+
+      <main class="col-md-8 col-sm-12 holder">
+        <header class="row">
+          <div class="col-12">
+            <h1>Garden</h1>
+            <h2>Mission: Create a Node app that holds mini apps and acts like a workbench for small scripts and rapidly developed tools</h2>
+            <span class="header-tag-holder"><span class="header-tag header-tag-dev">Development</span><span
+                class="header-tag header-tag-dev-plus">JavaScript</span><span
+                class="header-tag header-tag-dev-plus">Electron</span></span>
+            <span class="header-tag-holder">
+              <a href="https://github.com/hannahpatellis/garden" tite="Find Garden on Github">
+                <i class="fab fa-github"></i>
+              </a>
+            </span>
+            <hr />
           </div>
-        </aside>
+        </header>
 
-        <main class="col-md-8 col-sm-12 holder">
-          <header class="row">
-            <div class="col-12">
-              <h1>Garden</h1>
-              <h2></h2>
-              <span class="header-tag-holder"><span class="header-tag header-tag-dev">Development</span><span class="header-tag header-tag-dev-plus">JavaScript</span><span class="header-tag header-tag-dev-plus">Electron</span></span>
-              <hr />
-            </div>
-          </header>
+        <section class="row portfolio-row">
+          <div class="col-md-12">
+            <p>The idea for Garden came about while I was going through a time where I was making a lot of small Node-based applets and scripts, some of which used Electron. I decided instead of rewriting basic functions over and over, and in an attempt to make all these bits of code more accessible, I would build a "Garden" in which they could all live.</p>
+            <p>I developed one single Electron application that allowed for small modules to be dropped into a directory with a JSON file full with settings and be run. This allowed me to quickly write JavaScript apps or small scripts and run them in a single place with a user interface already constructed.</p>
+          </div>
+        </section>
+        <section class="row portfolio-row">
+          <div class="col-md-6">
+            <a href="../assets/img/p/garden/garden-screenshot-home.png"
+              data-featherlight="../assets/img/p/garden/garden-screenshot-home.png" title="Click to view">
+              <img src="../assets/img/p/garden/garden-screenshot-home.png" width="100%"
+                alt="An application window open on a macOS computer. Background of the app window says, &quot;Welcome to SCN Now. You look great today.&quot; There is a menu pulled down with different modules listed alongside an accompanying icon" />
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="../assets/img/p/garden/garden-screenshot-mod.png"
+              data-featherlight="../assets/img/p/garden/garden-screenshot-mod.png" title="Click to view">
+              <img src="../assets/img/p/garden/garden-screenshot-mod.png" width="100%"
+                alt="An application window open on a macOS computer. Displays a module running with the title &quot;Leo&quot; and three text input boxes. The module is a diary entry application." />
+            </a>
+          </div>
+        </section>
+        <section class="row portfolio-row">
+          <div class="col-md-6">
+            <h1>Try Garden</h1>
+            <p>Grab the repo over on <a href="https://github.com/hannahpatellis/garden" title="Find Garden on Github">GitHub</a></p>
+            <ul>
+              <li><code>cd</code> into the repo directory</li>
+              <li>Install Node modules with <code>npm i</code></li>
+              <li>Start 'er up with <code>npm start</code></li>
+            </ul>
+            <h2>Notes</h2>
+            <p>Please note Garden is in development and has only been tested on macOS</p>
+            <p>You might need to install Electron globally with <code>npm i -g electron</code></p>
+          </div>
+          <div class="col-md-6">
+            <h1>What was used</h1>
+            <ul>
+              <li>Electron</li>
+              <li>Node.js</li>
+              <li>jQuery</li>
+              <li>Moment.js</li>
+              <li>jsonfile [npm]</li>
+              <li>Bootstrap 3</li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
 
-          <section class="row portfolio-row">
-            <div class="col-md-12">
-              <h1>Coming shortly</h1>
-            </div>
-          </section>
-        </main>
-      </div>
+  </div><!-- Container -->
 
-    </div><!-- Container -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" type="text/javascript" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script> -->
+  <script src="../assets/js/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+  <!-- <script defer src="../assets/js/fa-packs/regular.min.js"></script> -->
+  <script defer src="../assets/js/fa-packs/brands.min.js"></script>
+  <script defer src="../assets/js/fontawesome.min.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106621299-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments) };
+    gtag('js', new Date());
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" type="text/javascript" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script> -->
-    <script src="../assets/js/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-    <!-- <script defer src="../assets/js/fa-packs/regular.min.js"></script> -->
-    <!-- <script defer src="../assets/js/fa-packs/brands.min.js"></script> -->
-    <!-- <script defer src="../assets/js/fontawesome.min.js"></script> -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106621299-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments)};
-      gtag('js', new Date());
+    gtag('config', 'UA-106621299-1');
+  </script>
+</body>
 
-      gtag('config', 'UA-106621299-1');
-    </script>
-  </body>
 </html>
