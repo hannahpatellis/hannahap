@@ -93,6 +93,11 @@ a:hover{
   background-color: #4F2335;
   color:#f2f2f2;
 }
+.tile-comingsoon {
+  border: 4px solid #4F2335;
+  color:#262626;
+  opacity: 0.5;
+}
 .tile-comingsoon:hover {
   background-color: #777777;
   opacity: 0.2;
@@ -233,6 +238,14 @@ section.portfolio-row h2 {
 section.portfolio-row h3 {
   font-size: 15px;
 }
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-center-withcap {
+  height: 100%;
+}
 .welton{
   margin-right:20px;
   margin-top:2rem;
@@ -360,6 +373,10 @@ img.page-img-part{
     height:2px;
     margin-top:5px;
     margin-bottom:5px;
+  }
+  .tile-link-icon{
+    right:10px;
+    bottom:10px;
   }
   .tile-social-holder{
     margin-top:0px;
