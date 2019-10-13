@@ -199,6 +199,9 @@ br#page-about-social-break {
 .holder .row{
   margin-bottom:40px;
 }
+.caption {
+  height: 100%;
+}
 span.header-tag {
   border: 1px solid #d6d6d6;
   border-radius: 7px;
