@@ -116,8 +116,11 @@ a:hover{
   color:#262626;
 }
 .tile-mega:hover{
-  background-image:none;
-  background-color:#4F2335;
+  background-color: none;
+  background-image:url("../img/wall.JPG");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center center;
   border:none!important;
 }
 .tile-resize {
