@@ -109,7 +109,10 @@ a:hover{
   color:#262626;
 }
 .tile-mega{
-  background: none;
+  background-image:url("../img/wall.JPG");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: 1000px 0;
   height:250px;
   width:520px;
   border:0px;
@@ -117,9 +120,8 @@ a:hover{
 }
 .tile-mega:hover{
   background-color: none;
-  background-image:url("../img/wall.JPG");
-  background-repeat: no-repeat;
-  background-size:cover;
+  
+  
   background-position:center center;
   border:none!important;
 }
