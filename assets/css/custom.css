@@ -120,10 +120,9 @@ a:hover{
 }
 .tile-mega:hover{
   background-color: none;
-  
-  
   background-position:center center;
   border:none!important;
+  text-shadow: 2px 2px 3px rgba(0,0,0,.3);
 }
 .tile-resize {
   min-height: 240px;
