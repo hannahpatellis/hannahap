@@ -56,6 +56,9 @@ a{
 a:hover{
   color:#A3A3CE;
 }
+strong {
+  font-weight: bold;
+}
 /* .holder{
   margin-top:4%;
 } */
@@ -247,13 +250,12 @@ section.portfolio-row h2 {
 section.portfolio-row h3 {
   font-size: 15px;
 }
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+section.portfolio-row img {
+  margin-top: 20px;
 }
-.flex-center-withcap {
-  height: 100%;
+figcaption {
+  font-size: 12px;
+  padding-top: 10px;
 }
 .welton{
   margin-right:20px;
@@ -419,5 +421,12 @@ img.page-img-part{
   }
   section.portfolio-row h3 {
     font-size: 13px;
+  }
+
+  div.crt-card:first-child {
+    margin-top: 0px;
+  }
+  div.crt-card {
+    margin-top: 50px;
   }
 }
