@@ -74,13 +74,22 @@ a:hover {
   color: var(--haip-dgray);
 }
 p {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: normal;
   line-height: 1.5rem;
 }
 h1 {
   font-size: 1.7rem;
   font-weight: bold;
+}
+h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.1rem;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 hr {
   border: 1px var(--haip-lgray) solid;
@@ -282,6 +291,37 @@ div#swish {
   grid-area: article;
   margin-top: 55px;
 }
+.grid-page article div.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid-page article div.f-center {
+  align-items: center;
+  justify-content: space-around;
+}
+.grid-page article div.f-top {
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.grid-page article div.container div.f-3 {
+  width: 30%;
+}
+.grid-page article div.container div.f-2 {
+  width: 47%;
+}
+.grid-page article div.well {
+  padding: 20px;
+  border-radius: 18px;
+  background-color: var(--haip-lgray);
+}
+.grid-page article div.well-border {
+  padding: 20px;
+  border-radius: 18px;
+  border: 2px var(--haip-lgray) solid;
+}
+.grid-page article ul {
+
+}
 
 /* About */
 .grid-about section {
@@ -356,5 +396,10 @@ div#memoji-stage {
   }
   .grid-page header {
     margin-bottom: 55px;
+  }
+  .grid-page article div.container div.f-3,
+  .grid-page article div.container div.f-2 {
+    width: 100%;
+    background-color: red;
   }
 }
