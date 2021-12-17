@@ -62,6 +62,10 @@ body {
 strong {
   font-weight: bold;
 }
+p {
+  font-size: 1.1rem;
+  font-weight: normal;
+}
 h1 {
   font-size: 1.7rem;
   font-weight: bold;
@@ -77,7 +81,7 @@ hr {
   margin-top: 40px;
 }
 main {
-  width: 80vw;
+  width: 75vw;
   margin: 0 auto;
   margin-bottom: 100px;
 }
@@ -267,7 +271,35 @@ div#swish {
   margin-top: 55px;
 }
 
-@media only screen and (max-width: 900px) {
+/* About */
+.grid-about section {
+  grid-template-rows: auto 2px 65px 65px!important;
+  grid-template-areas:
+    'about about'
+    'spacer spacer'
+    'pdf docx'
+    'social social'!important;
+}
+.grid-about section div.about {
+  grid-area: about;
+}
+.grid-about section a.tile-placement-pdf {
+  grid-area: pdf;
+}
+.grid-home section div.tile-pdf {
+  background-color: var(--haip-red);
+}
+.grid-about section a.tile-placement-docx {
+  grid-area: docx;
+}
+.grid-home section div.tile-docx {
+  background-color: var(--haip-red);
+}
+.grid-home section div.tile span.tile-title-sm {
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 1000px) {
   /* Global */
   main {
     width: 90vw;
