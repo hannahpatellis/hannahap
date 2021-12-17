@@ -62,9 +62,21 @@ body {
 strong {
   font-weight: bold;
 }
+em {
+  font-style: italic;
+}
+a {
+  text-decoration: underline;
+  color: var(--haip-dark);
+  transition: 0.3s;
+}
+a:hover {
+  color: var(--haip-dgray);
+}
 p {
   font-size: 1.1rem;
   font-weight: normal;
+  line-height: 1.5rem;
 }
 h1 {
   font-size: 1.7rem;
@@ -78,7 +90,7 @@ hr {
   margin-top: 40px;
 }
 .mb {
-  margin-top: 40px;
+  margin-bottom: 40px;
 }
 main {
   width: 75vw;
@@ -280,8 +292,11 @@ div#swish {
     'pdf docx'
     'social social'!important;
 }
-.grid-about section div.about {
+.grid-about section div#about {
   grid-area: about;
+}
+.grid-about section a {
+  text-decoration: underline;
 }
 .grid-about section a.tile-placement-pdf {
   grid-area: pdf;
@@ -297,6 +312,12 @@ div#swish {
 }
 .grid-home section div.tile span.tile-title-sm {
   font-size: 0.9rem;
+}
+div#memoji-stage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 1000px) {
