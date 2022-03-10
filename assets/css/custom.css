@@ -328,6 +328,11 @@ div#swish {
   border-radius: 18px;
   background-color: var(--haip-lgray);
 }
+.grid-page article div.well-pink {
+  padding: 20px;
+  border-radius: 18px;
+  background-color: var(--haip-pink);
+}
 .grid-page article div.well-border {
   padding: 20px;
   border-radius: 18px;
@@ -338,10 +343,10 @@ div#swish {
   padding: 0;
   margin: 0;
   margin-bottom: 40px;
+  width: 70%;
 }
 .grid-page article ul {
   list-style: disc outside;
-  
 }
 .grid-page article ol {
   list-style: decimal outside;
@@ -349,12 +354,7 @@ div#swish {
 .grid-page article ul li, .grid-page article ol li { 
   padding-left: 10px;
   margin-bottom: 10px;
-}
-.grid-page article ul li::before {
-  padding-right: 8px;
-}
-.grid-page article ol li::before {
-  padding-right: 8px;
+  line-height: 1.5rem;
 }
 .grid-page article figcaption {
   margin-top: 10px;
