@@ -221,7 +221,7 @@ div#swish {
   grid-area: twou;
 }
 .grid-home section div.tile-twou {
-  background-image: url('../img/2u.png');
+  background-image: url('../img/2U.png');
   background-position: bottom center;
   background-size: cover;
   background-color: transparent;
@@ -230,7 +230,7 @@ div#swish {
   grid-area: sc;
 }
 .grid-home section div.tile-sc {
-  background-image: url('../img/sc.png');
+  background-image: url('../img/SC.png');
   background-position: bottom center;
   background-size: cover;
   background-color: transparent;
