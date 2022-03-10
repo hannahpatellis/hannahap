@@ -81,13 +81,16 @@ p {
 h1 {
   font-size: 1.7rem;
   font-weight: bold;
+  line-height: 1.9rem;
 }
 h2 {
   font-size: 1.4rem;
   font-weight: bold;
+  line-height: 1.6rem;
 }
 h3 {
   font-size: 1.1rem;
+  line-height: 1.3rem;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -101,6 +104,12 @@ hr {
 .mb {
   margin-bottom: 40px;
 }
+.mt-sm {
+  margin-top: 20px;
+}
+.mb-sm {
+  margin-bottom: 20px;
+}
 main {
   width: 75vw;
   margin: 0 auto;
@@ -112,7 +121,7 @@ div#swish {
   position: fixed;
   height: 100vh;
   width: 16px;
-  right: 0;
+  left: 0;
   top: 0;
 }
 
@@ -215,14 +224,16 @@ div#swish {
   background-image: url('../img/2u.png');
   background-position: bottom center;
   background-size: cover;
+  background-color: transparent;
 }
 .grid-home section a.tile-placement-sc {
   grid-area: sc;
 }
 .grid-home section div.tile-sc {
   background-image: url('../img/sc.png');
-  background-position: top center;
+  background-position: bottom center;
   background-size: cover;
+  background-color: transparent;
 }
 .grid-home section a.tile-placement-ui {
   grid-area: ui;
@@ -309,6 +320,9 @@ div#swish {
 .grid-page article div.container div.f-2 {
   width: 47%;
 }
+.grid-page article div.container div.f-1 {
+  width: 97%;
+}
 .grid-page article div.well {
   padding: 20px;
   border-radius: 18px;
@@ -319,8 +333,31 @@ div#swish {
   border-radius: 18px;
   border: 2px var(--haip-lgray) solid;
 }
+.grid-page article ul, .grid-page article ol {
+  font-size: .9rem;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+}
 .grid-page article ul {
-
+  list-style: disc outside;
+  
+}
+.grid-page article ol {
+  list-style: decimal outside;
+}
+.grid-page article ul li, .grid-page article ol li { 
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.grid-page article ul li::before {
+  padding-right: 8px;
+}
+.grid-page article ol li::before {
+  padding-right: 8px;
+}
+.grid-page article figcaption {
+  margin-top: 10px;
 }
 
 /* About */
@@ -398,8 +435,8 @@ div#memoji-stage {
     margin-bottom: 55px;
   }
   .grid-page article div.container div.f-3,
-  .grid-page article div.container div.f-2 {
+  .grid-page article div.container div.f-2,
+  .grid-page article div.container div.f-1 {
     width: 100%;
-    background-color: red;
   }
 }
