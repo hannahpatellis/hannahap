@@ -376,12 +376,14 @@ div#swish {
   text-decoration: underline;
 }
 .grid-about section a.tile-placement-pdf {
+  text-decoration: none;
   grid-area: pdf;
 }
 .grid-home section div.tile-pdf {
   background-color: var(--haip-red);
 }
 .grid-about section a.tile-placement-docx {
+  text-decoration: none;
   grid-area: docx;
 }
 .grid-home section div.tile-docx {
@@ -403,7 +405,11 @@ div#memoji-stage {
     width: 90vw;
   }
   div#swish {
-    display: none;
+    height: 20px;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    background: linear-gradient(90deg, rgba(79,35,53,1) 0%, rgba(163,163,206,1) 45%, rgba(249,217,217,1) 100%);
   }
 
   /* Home */
