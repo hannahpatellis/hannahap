@@ -393,9 +393,6 @@ div#swish {
   font-size: 0.9rem;
   line-height: 0.2rem;
 }
-.grid-home section div.tile div.tile-title {
-  line-height: 1rem;
-}
 div#memoji-stage {
   width: 100%;
   display: flex;
