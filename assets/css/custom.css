@@ -379,12 +379,18 @@ div#swish {
   text-decoration: none;
   grid-area: pdf;
 }
+.grid-about section a.tile-placement-pdf div.tile-pdf div.tile-title {
+  line-height: 1rem;
+}
 .grid-home section div.tile-pdf {
   background-color: var(--haip-red);
 }
 .grid-about section a.tile-placement-docx {
   text-decoration: none;
   grid-area: docx;
+}
+.grid-about section a.tile-placement-docx div.tile-docx div.tile-title {
+  line-height: 1rem;
 }
 .grid-home section div.tile-docx {
   background-color: var(--haip-red);
@@ -394,7 +400,8 @@ div#swish {
   line-height: 0.2rem;
 }
 div#memoji-stage {
-  width: 100%;
+  margin: 0 auto;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
