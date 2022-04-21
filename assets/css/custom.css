@@ -169,7 +169,7 @@ div#swish {
     'sc sc'
     'ui cosmo'
     'spacer spacer'
-    /* 'zines art' */
+    'zines art'
     'social social';
   grid-gap: 25px;
 }
