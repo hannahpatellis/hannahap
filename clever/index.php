@@ -1,1 +1,0 @@
-<?php header('Location: https://go.hannahap.com/clever/index.html'); ?>
