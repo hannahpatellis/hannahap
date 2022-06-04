@@ -127,6 +127,22 @@ div#swish {
   left: 0;
   top: 0;
 }
+div#banner {
+  background-color:#2e2e2e;
+  height: auto;
+  width: 100vw;
+  padding: 20px;
+  color: #f8f8f8;
+  top: 0;
+  text-align: center;
+}
+div#banner a.reverse-look {
+  color: #f8f8f8;
+  transition: 0.3s;
+}
+div#banner a.reverse-look:hover {
+  color: #d6d6d6;
+}
 
 /* Home */
 .grid-home {
@@ -421,6 +437,9 @@ div#memoji-stage {
     left: 0;
     top: 0;
     background: linear-gradient(90deg, rgba(79,35,53,1) 0%, rgba(163,163,206,1) 45%, rgba(249,217,217,1) 100%);
+  }
+  div#banner {
+    margin-top: 20px;
   }
 
   /* Home */
