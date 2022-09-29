@@ -1,5 +1,24 @@
-/* Adobe Fonts import */
-@import url("https://use.typekit.net/ban5drb.css");
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/gotham-bold-webfont.woff2') format('woff2'),
+       url('../fonts/gotham-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/gotham-book-webfont.woff2') format('woff2'),
+       url('../fonts/gotham-book-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/gotham-light-webfont.woff2') format('woff2'),
+       url('../fonts/gotham-light-webfont.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
 
 /* Reset */
 html, body, div, span, applet, object, iframe,
@@ -47,20 +66,30 @@ table {
 
 /* Global */
 :root {
-  --haip-dgray: #656565;
-  --haip-lgray: #d6d6d6;
-  --haip-light: #f8f8f8;
-  --haip-dark: #2e2e2e;
-  --haip-purple: #a3a3ce;
-  --haip-pink: #f9d9d9;
-  --haip-red: #4f2335;
+  --haip-dgray: #39546E;
+  --haip-lgray: #DDE6EA;
+  --haip-light: #F8FEFF;
+  --haip-dark: #022344;
+  --haip-coral: #FF8C8C;
+  --haip-peach: #FFD1C2;
+  --haip-dblue: #3667A1;
+  --haip-lblue: #88AEE7;
+  --haip-foam: #D1F0F9;
+  --haip-lpurple: #F0D6F6;
+  --haip-dpurple: #8575B9;
 }
 body {
-  font-family: 'din-2014', Helvetica, Arial, sans-serif;
+  font-family: 'Gotham', Helvetica, Arial, sans-serif;
   background-color: var(--haip-light);
   color: var(--haip-dark);
   font-size: 12px;
   font-weight: normal;
+}
+body.incl-background {
+  /* background-image: url(../img/orb.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: -250px 200px; */
 }
 strong {
   font-weight: bold;
@@ -118,15 +147,6 @@ main {
   margin: 0 auto;
   margin-bottom: 100px;
 }
-div#swish {
-  background: rgb(79,35,53);
-  background: linear-gradient(180deg, rgba(79,35,53,1) 0%, rgba(163,163,206,1) 45%, rgba(249,217,217,1) 100%);
-  position: fixed;
-  height: 100vh;
-  width: 16px;
-  left: 0;
-  top: 0;
-}
 div#banner {
   background-color:#2e2e2e;
   height: auto;
@@ -172,7 +192,7 @@ div#banner a.reverse-look:hover {
   font-weight: normal;
 }
 .grid-home aside h1 strong {
-  color: var(--haip-red);
+  color: var(--haip-coral);
 }
 .grid-home aside h1:last-child {
   padding-bottom: 0;
@@ -181,14 +201,15 @@ div#banner a.reverse-look:hover {
   grid-area: section;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 65px 150px 150px 150px 2px 65px 65px;
+  grid-template-rows: 65px 65px 65px 2px 150px 150px 150px 65px;
   grid-template-areas:
     'about about'
+    'blog blog'
+    'zines art'
+    'spacer spacer'
     'twou twou'
     'sc sc'
     'ui cosmo'
-    'spacer spacer'
-    'zines art'
     'social social';
   grid-gap: 25px;
 }
@@ -234,7 +255,22 @@ div#banner a.reverse-look:hover {
   grid-area: about;
 }
 .grid-home section div.tile-about {
-  background-color: var(--haip-red);
+  background-color: var(--haip-dblue);
+}
+.grid-home section a.tile-placement-blog {
+  grid-area: blog;
+}
+.grid-home section div.tile-blog {
+  background-color: var(--haip-coral);
+}
+.grid-home section a.tile-placement-clever {
+  grid-area: clever;
+}
+.grid-home section div.tile-clever {
+  background-image: url('../img/Clever.png');
+  background-position: center center;
+  background-size: cover;
+  background-color: transparent;
 }
 .grid-home section a.tile-placement-twou {
   grid-area: twou;
@@ -258,13 +294,13 @@ div#banner a.reverse-look:hover {
   grid-area: ui;
 }
 .grid-home section div.tile-ui {
-  background-color: var(--haip-red);
+  background-color: var(--haip-dblue);
 }
 .grid-home section a.tile-placement-cosmo {
   grid-area: cosmo;
 }
 .grid-home section div.tile-cosmo {
-  background-color: var(--haip-red);
+  background-color: var(--haip-dblue);
 }
 .grid-home section div.spacer {
   grid-area: spacer;
@@ -273,17 +309,17 @@ div#banner a.reverse-look:hover {
   grid-area: zines;
 }
 .grid-home section div.tile-zines {
-  background-color: var(--haip-red);
+  background-color: var(--haip-coral);
 }
 .grid-home section a.tile-placement-art {
   grid-area: art;
 }
 .grid-home section div.tile-art {
-  background-color: var(--haip-red);
+  background-color: var(--haip-coral);
 }
 .grid-home section div.tile-social {
   grid-area: social;
-  background-color: var(--haip-pink);
+  background-color: var(--haip-peach);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -350,7 +386,7 @@ div#banner a.reverse-look:hover {
 .grid-page article div.well-pink {
   padding: 20px;
   border-radius: 18px;
-  background-color: var(--haip-pink);
+  background-color: var(--haip-peach);
 }
 .grid-page article div.well-border {
   padding: 20px;
@@ -381,11 +417,12 @@ div#banner a.reverse-look:hover {
 
 /* About */
 .grid-about section {
-  grid-template-rows: auto 2px 65px 65px!important;
+  grid-template-rows: auto 2px 65px 65px 65px!important;
   grid-template-areas:
     'about about'
     'spacer spacer'
     'pdf docx'
+    'blog blog'
     'social social'!important;
 }
 .grid-about section div#about {
@@ -402,7 +439,7 @@ div#banner a.reverse-look:hover {
   line-height: 1rem;
 }
 .grid-home section div.tile-pdf {
-  background-color: var(--haip-red);
+  background-color: var(--haip-dblue);
 }
 .grid-about section a.tile-placement-docx {
   text-decoration: none;
@@ -412,7 +449,10 @@ div#banner a.reverse-look:hover {
   line-height: 1rem;
 }
 .grid-home section div.tile-docx {
-  background-color: var(--haip-red);
+  background-color: var(--haip-dblue);
+}
+.grid-home section a.tile-placement-blog {
+  text-decoration: none!important;
 }
 .grid-home section div.tile span.tile-title-sm {
   font-size: 0.9rem;
@@ -456,6 +496,7 @@ div#memoji-stage {
   }
   .grid-home aside h1:last-child {
     padding-bottom: 55px;
+    text-align: right;
   }
 
   /* Page */
