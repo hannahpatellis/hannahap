@@ -317,7 +317,7 @@ div#banner a.reverse-look:hover {
 .grid-home section div.tile-art {
   background-color: var(--haip-coral);
 }
-.grid-home section div.tile-social {
+.grid-home section div.tile-social, .grid-home section#zine-list div.tile-social {
   grid-area: social;
   background-color: var(--haip-peach);
   display: flex;
@@ -464,6 +464,73 @@ div#memoji-stage {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+/* Zines */
+.grid-home section#zine-list {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 65px 150px 150px 150px 150px 65px;
+  grid-template-areas:
+    'back'
+    'slut'
+    'wfy'
+    'cfe'
+    'sp'
+    'social';
+  grid-gap: 25px;
+}
+.grid-home section#zine-list div.zine-tile-back {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  grid-area: back;
+  background-color: var(--haip-lgray);
+  font-size: 1rem;
+  font-weight: normal;
+  border-radius: 18px;
+}
+.grid-home section#zine-list div.zine-tile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 18px;
+  height: 150px;
+  width: 100%;
+  background-color: var(--haip-foam);
+}
+.grid-home section#zine-list div.zine-tile div.zine-tile-icon img {
+  border-radius: 15px 0px 0px 15px;
+  height: 140px;
+  margin-left: 5px;
+}
+.grid-home section#zine-list div.zine-tile div.zine-tile-body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 25px;
+}
+.grid-home section#zine-list div.zine-tile div.zine-tile-body h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.grid-home section#zine-list div.zine-tile div.zine-tile-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid-home section#zine-list div.zine-tile div.zine-tile-options div.zine-tile-option {
+  padding: 5px 10px 5px 10px;
+  background-color: var(--haip-dblue);
+  color: var(--haip-light);
+  font-size: 1rem;
+  margin-right: 10px;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 1000px) {

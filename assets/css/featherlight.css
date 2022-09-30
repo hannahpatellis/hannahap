@@ -6,6 +6,22 @@
  * MIT Licensed.
 **/
 
+.lightbox {
+	display: none;
+	width: 40vw;
+}
+.lightbox-flex {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.lightbox-flex-left {
+	margin-right: 20px;
+}
+.lightbox-flex-right h2 {
+	margin-bottom: 10px;
+}
+
 html.with-featherlight {
 	/* disable global scrolling when featherlights are visible */
 	overflow: hidden;
@@ -65,11 +81,13 @@ html.with-featherlight {
 	max-height: 95%;
 
 	/* styling */
-	background: #fff;
+	background: #F8FEFF;
 	cursor: auto;
 
 	/* reset white-space wrapping */
 	white-space: normal;
+
+	border-radius: 18px;
 }
 
 /* contains the content */
