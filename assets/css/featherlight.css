@@ -48,6 +48,10 @@ html.with-featherlight {
 	background: rgba(0, 0, 0, 0);
 }
 
+.featherlight img {
+	border-radius: 16px;
+}
+
 /* support for nested featherlights. Does not work in IE8 (use JS to fix) */
 .featherlight:last-of-type {
 	background: rgba(0, 0, 0, 0.8);
