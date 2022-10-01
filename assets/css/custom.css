@@ -185,6 +185,7 @@ div#banner a.reverse-look:hover {
 }
 .grid-home aside {
   grid-area: aside;
+  width: 70%;
 }
 .grid-home aside h1 {
   padding-bottom: 55px;
@@ -655,16 +656,18 @@ div#art5 {
       'aside'
       'section';
   }
-  .grid-home aside h1:first-child {
+  .grid-home aside {
+    width: 100%;
+  }
+  .grid-home aside h1:nth-child(even) {
     text-align: right;
   }
   .grid-home aside h1:last-child {
     padding-bottom: 55px;
-    text-align: right;
   }
   .grid-home aside p {
     padding-bottom: 55px;
-    text-align: right;
+    text-align: left;
   }
 
   /* Page */
@@ -683,5 +686,29 @@ div#art5 {
   .grid-page article div.container div.f-2,
   .grid-page article div.container div.f-1 {
     width: 100%;
+  }
+
+  /* Zines */
+  .grid-home section#zine-list div.zine-tile div.zine-tile-body {
+    padding-left: 15px;
+  }
+  span.explicit {
+    font-size: .7rem;
+  }
+  .grid-home section#zine-list div.zine-tile div.zine-tile-body h2 {
+    font-size: 1.2rem;
+  }
+  .grid-home section#zine-list div.zine-tile div.zine-tile-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .grid-home section#zine-list div.zine-tile div.zine-tile-options div.zine-tile-option {
+    margin-bottom: 8px;
+    font-size: .8rem;
+  }
+  .grid-home section#zine-list div.zine-tile div.zine-tile-options:last-child {
+    margin-bottom: 0px;
   }
 }
