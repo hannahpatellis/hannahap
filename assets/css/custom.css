@@ -417,6 +417,15 @@ div#banner a.reverse-look:hover {
 }
 
 /* About */
+img#headshot {
+  height: 400px;
+  width: auto;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 18px;
+  border: 1px solid #e3edf1;
+}
 .grid-about section {
   grid-template-rows: auto 2px 65px 65px 65px!important;
   grid-template-areas:
@@ -557,9 +566,10 @@ span.explicit {
   grid-area: section;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 65px auto auto auto 65px;
+  grid-template-rows: 65px auto auto auto auto 65px;
   grid-template-areas:
     'back back'
+    'art6 art7'
     'art1 art2'
     'art3 art4'
     'art5 .'
@@ -630,6 +640,12 @@ div#art4 {
 div#art5 {
   grid-area: art5;
 }
+div#art6 {
+  grid-area: art6;
+}
+div#art6 {
+  grid-area: art7;
+}
 
 @media only screen and (max-width: 1000px) {
   /* Global */
@@ -668,6 +684,13 @@ div#art5 {
   .grid-home aside p {
     padding-bottom: 55px;
     text-align: left;
+  }
+
+  /* About */
+  img#headshot {
+    height: 250px;
+    margin-left: 5px;
+    margin-bottom: 5px;
   }
 
   /* Page */
