@@ -142,6 +142,9 @@ hr {
 .mb-sm {
   margin-bottom: 20px;
 }
+.light {
+  font-weight: lighter;
+}
 main {
   width: 75vw;
   margin: 0 auto;
@@ -202,11 +205,11 @@ div#banner a.reverse-look:hover {
   grid-area: section;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 65px 65px 65px 2px 150px 150px 150px 65px;
+  grid-template-rows: 65px 150px 65px 2px 150px 150px 150px 65px;
   grid-template-areas:
     'about about'
-    'blog blog'
-    'zines art'
+    'blog shop'
+    'zines film'
     'spacer spacer'
     'twou twou'
     'sc sc'
@@ -262,7 +265,37 @@ div#banner a.reverse-look:hover {
   grid-area: blog;
 }
 .grid-home section div.tile-blog {
-  background-color: var(--haip-coral);
+  background-image: url('../img/grace_2.jpg');
+  background-position: bottom center;
+  background-size: cover;
+  background-color: transparent;
+}
+.grid-home section a.tile-placement-zines {
+  grid-area: zines;
+}
+.grid-home section div.tile-zines {
+  background-color: var(--haip-dblue);
+}
+.grid-home section a.tile-placement-film {
+  grid-area: film;
+}
+.grid-home section div.tile-film {
+  background-color: var(--haip-dblue);
+}
+.grid-home section a.tile-placement-about-blog {
+  grid-area: blog;
+}
+.grid-home section div.tile-about-blog {
+  background-color: var(--haip-dblue);
+}
+.grid-home section a.tile-placement-shop {
+  grid-area: shop;
+}
+.grid-home section div.tile-shop {
+  background-image: url('../img/grace_1.jpg');
+  background-position: bottom center;
+  background-size: cover;
+  background-color: transparent;
 }
 .grid-home section a.tile-placement-clever {
   grid-area: clever;
@@ -277,7 +310,7 @@ div#banner a.reverse-look:hover {
   grid-area: twou;
 }
 .grid-home section div.tile-twou {
-  background-image: url('../img/2U.png');
+  background-image: url('../img/2U.jpg');
   background-position: bottom center;
   background-size: cover;
   background-color: transparent;
@@ -286,7 +319,7 @@ div#banner a.reverse-look:hover {
   grid-area: sc;
 }
 .grid-home section div.tile-sc {
-  background-image: url('../img/SC.png');
+  background-image: url('../img/SC.jpg');
   background-position: bottom center;
   background-size: cover;
   background-color: transparent;
@@ -308,9 +341,6 @@ div#banner a.reverse-look:hover {
 }
 .grid-home section a.tile-placement-zines {
   grid-area: zines;
-}
-.grid-home section div.tile-zines {
-  background-color: var(--haip-coral);
 }
 .grid-home section a.tile-placement-art {
   grid-area: art;
@@ -461,7 +491,7 @@ img#headshot {
 .grid-home section div.tile-docx {
   background-color: var(--haip-dblue);
 }
-.grid-home section a.tile-placement-blog {
+.grid-home section a.tile-placement-about-blog {
   text-decoration: none!important;
 }
 .grid-home section div.tile span.tile-title-sm {
