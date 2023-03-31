@@ -201,15 +201,22 @@ div#banner a.reverse-look:hover {
 .grid-home aside h1:last-child {
   padding-bottom: 0;
 }
+.grid-home aside h1 a {
+  text-decoration: none;
+}
+.grid-home aside h1 a:hover {
+  opacity: 0.7;
+}
 .grid-home section {
   grid-area: section;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 65px 150px 65px 2px 150px 150px 150px 65px;
+  grid-template-rows: 65px 65px 65px 65px 2px 150px 150px 150px 65px;
   grid-template-areas:
-    'about about'
-    'blog shop'
-    'zines film'
+    'shop blog'
+    'shop zines'
+    'shop digital'
+    'shop film'
     'spacer spacer'
     'twou twou'
     'sc sc'
@@ -265,15 +272,18 @@ div#banner a.reverse-look:hover {
   grid-area: blog;
 }
 .grid-home section div.tile-blog {
-  background-image: url('../img/grace_2.jpg');
-  background-position: bottom center;
-  background-size: cover;
-  background-color: transparent;
+  background-color: var(--haip-dblue);
 }
 .grid-home section a.tile-placement-zines {
   grid-area: zines;
 }
 .grid-home section div.tile-zines {
+  background-color: var(--haip-dblue);
+}
+.grid-home section a.tile-placement-digital {
+  grid-area: digital;
+}
+.grid-home section div.tile-digital {
   background-color: var(--haip-dblue);
 }
 .grid-home section a.tile-placement-film {
