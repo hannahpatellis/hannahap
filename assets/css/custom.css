@@ -521,9 +521,10 @@ div#memoji-stage {
   grid-area: section;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 65px 150px 150px 150px 150px 150px 65px;
+  grid-template-rows: 65px 150px 150px 150px 150px 150px 150px 65px;
   grid-template-areas:
     'back'
+    'sg'
     'iconic'
     'slut'
     'wfy'
