@@ -211,13 +211,12 @@ div#banner a.reverse-look:hover {
   grid-area: section;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 65px 65px 65px 65px 2px 150px 150px 150px 65px;
+  grid-template-rows: 65px 65px 2px 150px 150px 150px 150px 65px;
   grid-template-areas:
     'shop blog'
     'shop zines'
-    'shop digital'
-    'shop film'
     'spacer spacer'
+    'clever clever'
     'twou twou'
     'sc sc'
     'ui cosmo'
@@ -311,7 +310,7 @@ div#banner a.reverse-look:hover {
   grid-area: clever;
 }
 .grid-home section div.tile-clever {
-  background-image: url('../img/Clever.png');
+  background-image: url('../img/Clever.jpg');
   background-position: center center;
   background-size: cover;
   background-color: transparent;
@@ -598,7 +597,7 @@ span.explicit {
   padding: 5px 10px 5px 10px;
   background-color: var(--haip-dblue);
   color: var(--haip-light);
-  font-size: 1rem;
+  font-size: .8rem;
   margin-right: 10px;
   border-radius: 5px;
 }
@@ -771,7 +770,7 @@ div#art6 {
   }
   .grid-home section#zine-list div.zine-tile div.zine-tile-options div.zine-tile-option {
     margin-bottom: 8px;
-    font-size: .8rem;
+    font-size: .7rem;
   }
   .grid-home section#zine-list div.zine-tile div.zine-tile-options:last-child {
     margin-bottom: 0px;
