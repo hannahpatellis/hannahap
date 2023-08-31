@@ -211,10 +211,11 @@ div#banner a.reverse-look:hover {
   grid-area: section;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 65px 65px 2px 150px 150px 150px 150px 65px;
+  grid-template-rows: 65px 65px 65px 2px 150px 150px 150px 150px 65px;
   grid-template-areas:
-    'shop blog'
-    'shop zines'
+    'about about'
+    'shop shop'
+    'shop shop'
     'spacer spacer'
     'clever clever'
     'twou twou'
@@ -466,12 +467,11 @@ img#headshot {
   border: 1px solid #e3edf1;
 }
 .grid-about section {
-  grid-template-rows: auto 2px 65px 65px 65px!important;
+  grid-template-rows: auto 2px 65px 65px!important;
   grid-template-areas:
     'about about'
     'spacer spacer'
     'pdf docx'
-    'blog blog'
     'social social'!important;
 }
 .grid-about section div#about {
