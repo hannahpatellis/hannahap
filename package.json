@@ -1,0 +1,19 @@
+{
+  "name": "hannahap-nxt-gen",
+  "version": "2.0.0",
+  "description": "The next generation hannahap.com website featuring SASS and SSG",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js watch",
+    "build": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hannahpatellis/hannahap.git"
+  },
+  "author": "Alexandria 'Hannah' I. Patellis",
+  "license": "ISC",
+  "devDependencies": {
+    "kiss-ssg": "^1.4.4"
+  }
+}

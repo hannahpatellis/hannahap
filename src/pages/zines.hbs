@@ -1,0 +1,59 @@
+{{#extend "layout"}}
+  {{#content "body"}}
+    {{>"nav" activeZines=true}}
+
+    <main id="stage-zines">
+      <h1 class="tuppence mb-2"><span id="zines-title">Zines</span> by Hannah A. Patellis</h1>
+      <h2 class="mb-3">Zines are small-circulation, self-published works of original or appropriated texts and images</h2>  
+      
+      <section>
+        <div class="zine-entry">
+          <a href="selfishandgrieving.html" title="Learn more about the 'Selfish and Grieving' zine">
+            <div class="zine-entry-inner">
+              <img class="zine-cover-border" src="images/zines/sg_full.jpeg" alt="'Selfish and Grieving' zine cover, an abstract image in color halftone, with the words 'Selfish + Grieving' in black letters.">
+            </div>
+          </a>
+        </div>
+        <div class="zine-entry">
+          <a href="iconic.html" title="Learn more about the 'I am ICONIC' zine">
+            <div class="zine-entry-inner">
+              <img src="images/zines/iconic_full.jpeg" alt="'I am ICONIC' zine cover, a dark but colorful art piece inside an elongated capsule shape with the text 'i am' in a fine serif white font and the text 'ICONIC' in capital white warped letters.">
+            </div>
+          </a>
+        </div>
+        <div class="zine-entry">
+          <a href="waitingforyou.html" title="Learn more about the 'Waiting for You' zine">
+            <div class="zine-entry-inner">
+              <img class="zine-cover-border" src="images/zines/wfy_full.jpeg" alt="'Waiting for You' zine cover, a white square with a horizontal photo in the middle of the sky with clouds in it. Overlaid on the photo in white italic serif text are the words Waiting for You.">
+            </div>
+          </a>
+        </div>
+        <div class="zine-entry">
+          <a href="catfuremporium.html" title="Learn more about the 'Cat Fur Emporium' zine">
+            <div class="zine-entry-inner">
+              <img class="zine-cover-border" src="images/zines/cfe_full.jpeg" alt="'Cat Fur Emporium' zine cover, a chalkboard drawing inside a house shape of a woman and two cats standing on grass with clouds above them. The words 'Cat Fur Emporium' are big, black, and in a script typeface.">
+            </div>
+          </a>
+        </div>
+        <div class="zine-entry">
+          <a href="slut.html" title="Learn more about the 'Slut' zine">
+            <div class="zine-entry-inner">
+              <img src="images/zines/slut_full.jpeg" alt="'Slut' zine cover, a square closeup image of pink bed sheets with the text Slut written in a big, white, italic, serif font.">
+              <div class="nsfw">NSFW</div>
+            </div>
+          </a>
+        </div>
+        <div class="zine-entry">
+          <a href="southpole.html" title="Learn more about the 'South Pole' zine">
+            <div class="zine-entry-inner">
+              <img class="zine-cover-border" src="images/zines/sp_full.jpeg" alt="'South Pole' zine cover, a scanned photo of some pressed small weed flowers with the text South Pole written in big, bold, black, capital letters.">
+            </div>
+          </a>
+        </div>
+        <!-- <div class="zine-entry zine-entry-blank"></div> -->
+      </section>
+    </main>
+
+    {{>"footer"}}
+  {{/content}}
+{{/extend}}

@@ -1,0 +1,38 @@
+<div id="mobi-nav">
+  <a href="index.html" title="Home">
+    <div class="mobi-link">
+      <img id="flag-logo" src="images/logo.svg" alt="Hannah A. Patellis logo" />
+    </div>
+  </a>
+  <div class="mobi-link" id="mobi-menu" role="button">
+    <img src="images/bars-light.svg" alt="Expand navigation" />
+  </div>
+</div>
+
+<nav>
+  <ul id="nav-left" class="nav-container">
+    <a class="nav-link" href="index.html" title="Home">
+      <li class="nav-item"><img id="flag-logo" src="images/logo.svg" alt="Hannah A. Patellis logo" /></li>
+    </a>
+    <a class="nav-link" href="about.html" title="About Hannah A. Patellis">
+      <li class="nav-item {{#if activeAbout}}nav-active{{/if}}">About me</li>
+    </a>
+    <a class="nav-link" href="design.html" title="Design work portfolio">
+      <li class="nav-item {{#if activeDesign}}nav-active{{/if}}">Design work</li>
+    </a>
+  </ul>
+  <ul id="nav-right" class="nav-container" title="Retro tech homepage">
+    <a class="nav-link" href="zines.html" title="Zines by Hannah A. Patellis">
+      <li class="nav-item {{#if activeZines}}nav-active{{/if}}">Zines</li>
+    </a>
+    <a class="nav-link" href="art.html" title="Art by Hannah A. Patellis">
+      <li class="nav-item {{#if activeArt}}nav-active{{/if}}">Art</li>
+    </a>
+    <a class="nav-link" href="http://retro.hannahap.com">
+      <li class="nav-item nav-external">Retro</li>
+    </a>
+    <a class="nav-link" href="https://shop.hannahap.com/" title="Shop Hannah A. Patellis">
+      <li class="nav-item nav-external">Shop</li>
+    </a>
+  </ul>
+</nav>

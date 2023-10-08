@@ -1,0 +1,14 @@
+{{#extend "layout"}}
+  {{#content "body"}}
+    {{>"nav"}}
+
+    <main id="stage-error">
+      <div>
+        <h1 class="tuppence mb-2">Error 500</h1>
+        <p>There has been an internal server error</p>
+      </div>
+    </main>
+
+    {{>"footer"}}
+  {{/content}}
+{{/extend}}

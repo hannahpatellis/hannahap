@@ -1,0 +1,19 @@
+main#stage-art {
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.9rem;
+  }
+  span#art-title {
+    background: url('../images/grace_2.jpg') 0 0 / cover no-repeat;
+    color: var(--haip-dark);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+	main#stage-art {
+		margin-top: 20%;
+  }
+}

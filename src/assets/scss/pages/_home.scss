@@ -1,0 +1,59 @@
+main#stage-home {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+	animation-name: fade-in;
+	animation-timing-function: ease;
+  animation-duration: 1.5s;
+
+  h1 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    animation-name: welcome-alt;
+    animation-timing-function: ease;
+    animation-duration: 1.8s;
+  }
+  h1:first-child {
+    animation-name: welcome;
+    animation-duration: 1.9s;
+  }
+  h2 {
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+  }
+  p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  span#home-delight-1 {
+    background: url('../images/grace_1.jpg') 0 0 / cover no-repeat;
+    color: var(--haip-dark);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  span#home-delight-2 {
+    background: url('../images/grace_2.jpg') 0 0 / cover no-repeat;
+    color: var(--haip-dark);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 800px) {	
+	main#stage-home {
+		margin-bottom: 10px;
+
+    h1 {
+      font-size: 2.5rem;
+      line-height: 2.9rem;
+    }
+    h2 {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+}

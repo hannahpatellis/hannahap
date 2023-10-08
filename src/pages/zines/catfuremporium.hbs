@@ -1,0 +1,36 @@
+{{#extend "layout"}}
+  {{#content "body"}}
+    {{>"nav"}}
+
+    <main id="stage-zines-entry">
+      <article>
+        <p>Inside jokes between a mama and her two cats, Peach and Opal</p>
+        
+        <div id="actions">
+          <div class="action-button-wrap">
+            <a href="https://shop.hannahap.com/shop/zines/2?page=1&limit=60&sort_by=category_order&sort_order=asc" title="Buy a physical copy of the 'Cat Fur Emporium' zine">
+              <div>
+                <div>Buy a print copy</div>
+                <div><img src="images/circle-arrow-right-dblue.svg" alt="Buy a physical copy of the 'Cat Fur Emporium' zine" /></div>
+              </div>
+            </a>
+          </div>
+          <div class="action-button-wrap">
+            <a href="https://fs.hannahap.com/zine.php?title=CatFurEmporium" title="Download the 'Cat Fur Emporium' zine as a .pdf">
+              <div>
+                <div>Download a .pdf</div>
+                <div><img src="images/circle-arrow-right-dblue.svg" alt="Download the 'Cat Fur Emporium' zine as a .pdf" /></div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </article>
+      <aside>
+        <img id="cover" class="cover-white" src="images/zines/cfe_full.jpeg" alt="'Cat Fur Emporium' zine cover, a chalkboard drawing inside a house shape of a woman and two cats standing on grass with clouds above them. The words 'Cat Fur Emporium' are big, black, and in a script typeface." />
+      </aside>
+    </main>
+
+    {{>"footer"}}
+  {{/content}}
+{{/extend}}
