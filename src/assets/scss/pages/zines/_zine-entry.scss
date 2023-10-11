@@ -4,6 +4,7 @@ main#stage-zines-entry {
 	justify-content: center;
 
   article {
+    max-width: 400px;
     margin-right: 50px;
 
     div.nsfw {
@@ -67,7 +68,8 @@ main#stage-zines-entry {
     flex-direction: column;
     
     img {
-      width: 350px;
+      width: 100%;
+      max-width: 350px;
       height: auto;
       border-radius: var(--radius);
     }

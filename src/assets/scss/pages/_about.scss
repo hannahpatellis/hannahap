@@ -11,6 +11,7 @@ main#stage-about {
   }
   article {
     margin-right: 50px;
+    min-width: 350px;
 
     div#actions {
       border-radius: var(--radius);
@@ -74,6 +75,7 @@ main#stage-about {
     article {
       margin-right: 0px;
       margin-bottom: 50px;
+      min-width: auto;
 
       div#actions {
         min-width: 100%;

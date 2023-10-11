@@ -95,10 +95,10 @@ kiss.page({
   slug: 'cosmo'
 });
 kiss.page({
-  view: 'designs/uidesign.hbs',
-  title: 'User Interface Designs |',
+  view: 'designs/dailyui.hbs',
+  title: '#dailyui |',
   path: '/',
-  slug: 'uidesign'
+  slug: 'dailyui'
 });
 
 /* Zine Pages */
