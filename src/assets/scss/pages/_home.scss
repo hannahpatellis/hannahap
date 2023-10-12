@@ -28,12 +28,14 @@ main#stage-home {
   span#home-delight-1 {
     background: url('../images/grace_1.jpg') 0 0 / cover no-repeat;
     color: var(--haip-dark);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   span#home-delight-2 {
     background: url('../images/grace_2.jpg') 0 0 / cover no-repeat;
     color: var(--haip-dark);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

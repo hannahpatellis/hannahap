@@ -9,6 +9,7 @@ main#stage-art {
     background-repeat: no-repeat;
     background-position: 0 0;
     color: var(--haip-dark);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: title-art-animate 15s;

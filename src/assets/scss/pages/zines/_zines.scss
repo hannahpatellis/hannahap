@@ -9,6 +9,7 @@ main#stage-zines {
     background-repeat: no-repeat;
     background-position: 0 0;
     color: var(--haip-dark);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: title-zines-animate 15s;
