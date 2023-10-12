@@ -5,15 +5,31 @@ main#stage-art {
     line-height: 1.9rem;
   }
   span#art-title {
-    background: url('../images/grace_2.jpg') 0 0 / cover no-repeat;
+    background-image: url('../images/grace_2.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
     color: var(--haip-dark);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: title-art-animate 15s;
+    animation-iteration-count: infinite;
   }
 }
 
 @media only screen and (max-width: 800px) {
 	main#stage-art {
 		margin-top: 20%;
+  }
+}
+
+@keyframes title-art-animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0 0;
   }
 }
