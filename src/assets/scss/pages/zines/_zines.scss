@@ -18,7 +18,7 @@ main#stage-zines {
   section {
     width: 100%;
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 4px;
     background-color: var(--haip-coral);
@@ -35,6 +35,14 @@ main#stage-zines {
     height: 100%;
     width: 100%;
     background-color: var(--haip-light);
+  }
+  div#zine-entry-top {
+    grid-column: span 3;
+
+    img {
+      max-width: 450px;
+      height: auto;
+    }
   }
   div.zine-entry a div.zine-entry-inner {
     display: flex;
@@ -80,6 +88,9 @@ main#stage-zines {
     }
     div.zine-entry-blank {
       display: none;
+    }
+    div#zine-entry-top {
+      grid-column: span 1;
     }
 	}
 }

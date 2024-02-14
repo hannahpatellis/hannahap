@@ -1,0 +1,14 @@
+div#alert-header {
+  background-color: var(--haip-lgray);
+  padding: 10px 10px 10px 10px;
+  color: var(--haip-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  div#alert-header {
+    padding: 20px 20px 20px 20px;
+  }
+}
