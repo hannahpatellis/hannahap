@@ -1,0 +1,18 @@
+User-agent: Google-Extended
+Disallow: /zines.html
+Disallow: /selfishandgrieving.html
+Disallow: /iconic.html
+Disallow: /catfuremporium.html
+Disallow: /slut.html
+Disallow: /southpole.html
+Disallow: /waitingforyou.html
+Disallow: /images/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+Sitemap: https://www.hannahap.com/sitemap.xml
+Sitemap: https://hannahap.com/sitemap.xml

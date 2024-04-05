@@ -71,6 +71,12 @@ kiss.page({
 
 /* Design Pages */
 kiss.page({
+  view: 'designs/seesaw.hbs',
+  title: 'Work for Seesaw Learning |',
+  path: '/',
+  slug: 'seesaw'
+});
+kiss.page({
   view: 'designs/clever.hbs',
   title: 'Work for Clever Inc. |',
   path: '/',
