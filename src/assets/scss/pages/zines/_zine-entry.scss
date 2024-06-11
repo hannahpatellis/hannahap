@@ -7,6 +7,11 @@ main#stage-zines-entry {
     max-width: 400px;
     margin-right: 50px;
 
+    p.zine-entry-pdf {
+      margin-top: 20px;
+      font-size: .85rem;
+    }
+
     div.nsfw {
       border-radius: var(--radius);
       background-color: var(--haip-dred);

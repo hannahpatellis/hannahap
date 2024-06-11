@@ -19,13 +19,14 @@ main#stage-zines {
     width: 100%;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 4px;
     background-color: var(--haip-coral);
   }
   div.zine-entry {
     height: 100%;
     width: 100%;
+    grid-column: span 2;
   }
   div.zine-entry a {
     text-decoration: none;
@@ -36,13 +37,8 @@ main#stage-zines {
     width: 100%;
     background-color: var(--haip-light);
   }
-  div#zine-entry-top {
+  div.zine-entry-top-row {
     grid-column: span 3;
-
-    img {
-      max-width: 450px;
-      height: auto;
-    }
   }
   div.zine-entry a div.zine-entry-inner {
     display: flex;
@@ -89,8 +85,8 @@ main#stage-zines {
     div.zine-entry-blank {
       display: none;
     }
-    div#zine-entry-top {
-      grid-column: span 1;
+    div.zine-entry-top-row {
+      grid-column: span 2;
     }
 	}
 }

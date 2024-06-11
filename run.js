@@ -144,5 +144,23 @@ kiss.page({
   path: '/',
   slug: 'selfishandgrieving'
 });
+kiss.page({
+  view: 'zines/decatranniversary.hbs',
+  title: 'DecaTranniversary | Zines by',
+  path: '/',
+  slug: 'decatranniversary'
+});
+kiss.page({
+  view: 'zines/sleepcomesafterdeath.hbs',
+  title: 'Sleep Comes After Death | Zines by',
+  path: '/',
+  slug: 'sleepcomesafterdeath'
+});
+kiss.page({
+  view: 'zines/runaway.hbs',
+  title: 'Runaway | Zines by',
+  path: '/',
+  slug: 'runaway'
+});
 
 kiss.generate();
