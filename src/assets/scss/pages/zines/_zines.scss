@@ -51,13 +51,17 @@ main#stage-zines {
     background-color: var(--haip-light);
     transition: 0.5s;
 
-    div.nsfw {
+    div.nsfw, div.tag {
       border-radius: var(--radius);
       background-color: var(--haip-dred);
-      padding: 5px 20px 5px 20px;
+      padding: 7px 20px 5px 20px;
       margin-top: 1rem;
       font-weight: 600;
       color: var(--haip-light);
+    }
+
+    div.tag {
+      background-color: var(--haip-dblue);
     }
   }
   div.zine-entry a div.zine-entry-inner:hover {
@@ -65,7 +69,7 @@ main#stage-zines {
     transition: 0.5s;
   }
   div.zine-entry img {
-    width: 50%;
+    width: 60%;
     height: auto;
     border-radius: var(--radius);
   }

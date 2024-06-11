@@ -12,14 +12,18 @@ main#stage-zines-entry {
       font-size: .85rem;
     }
 
-    div.nsfw {
+    div.nsfw, div.tag {
       border-radius: var(--radius);
       background-color: var(--haip-dred);
-      padding: 5px 20px 5px 20px;
+      padding: 7px 20px 5px 20px;
       margin-top: 1rem;
       font-weight: 600;
       color: var(--haip-light);
       width: fit-content;
+    }
+
+    div.tag {
+      background-color: var(--haip-dblue);
     }
 
     div#actions {

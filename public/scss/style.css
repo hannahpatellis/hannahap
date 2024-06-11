@@ -911,20 +911,23 @@ main#stage-zines div.zine-entry a div.zine-entry-inner {
   background-color: var(--haip-light);
   transition: 0.5s;
 }
-main#stage-zines div.zine-entry a div.zine-entry-inner div.nsfw {
+main#stage-zines div.zine-entry a div.zine-entry-inner div.nsfw, main#stage-zines div.zine-entry a div.zine-entry-inner div.tag {
   border-radius: var(--radius);
   background-color: var(--haip-dred);
-  padding: 5px 20px 5px 20px;
+  padding: 7px 20px 5px 20px;
   margin-top: 1rem;
   font-weight: 600;
   color: var(--haip-light);
+}
+main#stage-zines div.zine-entry a div.zine-entry-inner div.tag {
+  background-color: var(--haip-dblue);
 }
 main#stage-zines div.zine-entry a div.zine-entry-inner:hover {
   background-color: var(--haip-lgray);
   transition: 0.5s;
 }
 main#stage-zines div.zine-entry img {
-  width: 50%;
+  width: 60%;
   height: auto;
   border-radius: var(--radius);
 }
@@ -971,14 +974,17 @@ main#stage-zines-entry article p.zine-entry-pdf {
   margin-top: 20px;
   font-size: 0.85rem;
 }
-main#stage-zines-entry article div.nsfw {
+main#stage-zines-entry article div.nsfw, main#stage-zines-entry article div.tag {
   border-radius: var(--radius);
   background-color: var(--haip-dred);
-  padding: 5px 20px 5px 20px;
+  padding: 7px 20px 5px 20px;
   margin-top: 1rem;
   font-weight: 600;
   color: var(--haip-light);
   width: fit-content;
+}
+main#stage-zines-entry article div.tag {
+  background-color: var(--haip-dblue);
 }
 main#stage-zines-entry article div#actions {
   border-radius: var(--radius);
