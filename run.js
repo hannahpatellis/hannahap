@@ -68,6 +68,12 @@ kiss.page({
   path: '/',
   slug: 'art'
 });
+kiss.page({
+  view: 'shop.hbs',
+  title: 'Shop',
+  path: '/',
+  slug: 'shop'
+});
 
 /* Design Pages */
 kiss.page({
