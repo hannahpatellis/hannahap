@@ -57,6 +57,12 @@ kiss.page({
   slug: 'design'
 });
 kiss.page({
+  view: 'it.hbs',
+  title: 'IT systems work |',
+  path: '/',
+  slug: 'it'
+});
+kiss.page({
   view: 'zines.hbs',
   title: 'Zines by',
   path: '/',
