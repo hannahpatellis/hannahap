@@ -185,7 +185,7 @@ kiss.page({
   view: 'art/wfy_collection.hbs',
   title: 'Waiting for You | Art by',
   path: '/',
-  slug: 'wfy'
+  slug: 'waitingforyouart'
 });
 kiss.page({
   view: 'art/iconic_collection.hbs',

@@ -45,6 +45,10 @@ nav {
   }
 }
 
+ul.nav-hide {
+  display: none!important;
+}
+
 @media only screen and (max-width: 800px) {	
   div#mobi-nav {
 		display: block;
@@ -85,6 +89,9 @@ nav {
 
     ul.nav-container {
       flex-direction: column;
+    }
+    ul.nav-hide {
+      display: none;
     }
     a li.nav-item {
       width: calc(100vw - 60px);
