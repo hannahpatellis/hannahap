@@ -1,1 +1,18 @@
-main#stage-error{display:flex;align-items:center;margin-bottom:40px}main#stage-error h1{font-size:4rem}main#stage-error p{font-size:1.5rem;line-height:2rem}@media only screen and (max-width: 800px){main#stage-error{margin-bottom:10px}}
+main#stage-error {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+main#stage-error h1 {
+  font-size: 4rem;
+}
+main#stage-error p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+  main#stage-error {
+    margin-bottom: 10px;
+  }
+}

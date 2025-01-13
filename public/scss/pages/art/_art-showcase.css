@@ -1,1 +1,104 @@
-main#stage-showcase{margin-top:10%;display:flex;align-items:center;justify-content:center}main#stage-showcase img#headshot{width:350px;height:auto;border-radius:var(--radius)}main#stage-showcase article{margin-right:50px;min-width:350px}main#stage-showcase article div#actions{border-radius:var(--radius);background-color:var(--haip-lgray);display:flex;align-items:center;justify-content:center;margin-top:40px;min-width:400px}main#stage-showcase article div#actions div.action-button-wrap,main#stage-showcase article div#actions div.action-button-container{height:calc(100% - 40px);width:calc(100% - 40px);padding:20px;transition:.5s}main#stage-showcase article div#actions div.action-button-wrap div,main#stage-showcase article div#actions div.action-button-container div{display:flex;flex-direction:row;align-items:center;justify-content:center}main#stage-showcase article div#actions div.action-button-wrap div img,main#stage-showcase article div#actions div.action-button-container div img{height:18px;width:auto;margin-left:12px}main#stage-showcase article div#actions div.action-button-wrap:hover,main#stage-showcase article div#actions div.action-button-container:hover{background-color:var(--haip-foam);transition:.5s}main#stage-showcase article div#actions div.action-button-container:hover{border-radius:var(--radius)}main#stage-showcase article div#actions div.action-button-wrap:first-child{border-right:4px solid var(--haip-light);border-radius:var(--radius) 0 0 var(--radius)}main#stage-showcase article div#actions div.action-button-wrap:last-child{border-radius:0 var(--radius) var(--radius) 0}main#stage-showcase aside{display:flex;align-items:center;justify-content:center;flex-direction:column}@media only screen and (min-width: 1600px){main#stage-showcase{margin-top:5%}}@media only screen and (max-width: 800px){main#stage-showcase{flex-direction:column}main#stage-showcase img#headshot{width:100%}main#stage-showcase article{margin-right:0px;margin-bottom:50px;min-width:auto}main#stage-showcase article div#actions{min-width:100%;flex-direction:column}main#stage-showcase article div#actions div.action-button-wrap{padding:20px}main#stage-showcase article div#actions div.action-button-wrap:first-child{border-right:none;border-bottom:4px solid var(--haip-light);border-radius:var(--radius) var(--radius) 0 0}main#stage-showcase article div#actions div.action-button-wrap:last-child{border-radius:0 0 var(--radius) var(--radius)}}
+main#stage-showcase {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main#stage-showcase img#headshot {
+  width: 350px;
+  height: auto;
+  border-radius: var(--radius);
+}
+main#stage-showcase img#screenshot {
+  width: 500px;
+  height: auto;
+  border-radius: var(--radius);
+  margin-bottom: 30px;
+}
+main#stage-showcase article {
+  margin-right: 50px;
+  min-width: 350px;
+}
+main#stage-showcase article div#actions {
+  border-radius: var(--radius);
+  background-color: var(--haip-lgray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  min-width: 400px;
+}
+main#stage-showcase article div#actions div.action-button-wrap, main#stage-showcase article div#actions div.action-button-container {
+  height: calc(100% - 40px);
+  width: calc(100% - 40px);
+  padding: 20px;
+  transition: 0.5s;
+}
+main#stage-showcase article div#actions div.action-button-wrap div, main#stage-showcase article div#actions div.action-button-container div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+main#stage-showcase article div#actions div.action-button-wrap div img, main#stage-showcase article div#actions div.action-button-container div img {
+  height: 18px;
+  width: auto;
+  margin-left: 12px;
+}
+main#stage-showcase article div#actions div.action-button-wrap:hover, main#stage-showcase article div#actions div.action-button-container:hover {
+  background-color: var(--haip-foam);
+  transition: 0.5s;
+}
+main#stage-showcase article div#actions div.action-button-container:hover {
+  border-radius: var(--radius);
+}
+main#stage-showcase article div#actions div.action-button-wrap:first-child {
+  border-right: 4px solid var(--haip-light);
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+main#stage-showcase article div#actions div.action-button-wrap:last-child {
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+main#stage-showcase aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1600px) {
+  main#stage-showcase {
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  main#stage-showcase {
+    flex-direction: column;
+  }
+  main#stage-showcase img#headshot {
+    width: 100%;
+  }
+  main#stage-showcase img#screenshot {
+    width: 100%;
+  }
+  main#stage-showcase article {
+    margin-right: 0px;
+    margin-bottom: 50px;
+    min-width: auto;
+  }
+  main#stage-showcase article div#actions {
+    min-width: 100%;
+    flex-direction: column;
+  }
+  main#stage-showcase article div#actions div.action-button-wrap {
+    padding: 20px;
+  }
+  main#stage-showcase article div#actions div.action-button-wrap:first-child {
+    border-right: none;
+    border-bottom: 4px solid var(--haip-light);
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+  main#stage-showcase article div#actions div.action-button-wrap:last-child {
+    border-radius: 0 0 var(--radius) var(--radius);
+  }
+}

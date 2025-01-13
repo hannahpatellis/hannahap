@@ -1,0 +1,31 @@
+{
+  "title": "I am ICONIC | Zines by",
+  "path": "/",
+  "slug": "iconic",
+  "generate": true,
+  "view": "zines/iconic.hbs",
+  "config": {
+    "dev": true,
+    "verbose": false,
+    "cleanBuild": true,
+    "extensionLess": false,
+    "sass": {
+      "includePaths": []
+    },
+    "port": 3001,
+    "folders": {
+      "root": "./",
+      "src": "./src",
+      "pages": "./src/pages",
+      "build": "./public",
+      "assets": "./src/assets",
+      "static": "./src/static",
+      "layouts": "./src/layouts",
+      "partials": "./src/partials",
+      "models": "./src/models",
+      "controllers": "./src/controllers"
+    }
+  },
+  "model": {},
+  "pageURL": "iconic.html"
+}

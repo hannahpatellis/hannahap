@@ -9,6 +9,12 @@ main#stage-showcase {
     height: auto;
     border-radius: var(--radius);
   }
+  img#screenshot {
+    width: 500px;
+    height: auto;
+    border-radius: var(--radius);
+    margin-bottom: 30px;
+  }
   article {
     margin-right: 50px;
     min-width: 350px;
@@ -79,6 +85,9 @@ main#stage-showcase {
 		flex-direction: column;
 
     img#headshot {
+      width: 100%;
+    }
+    img#screenshot {
       width: 100%;
     }
     article {

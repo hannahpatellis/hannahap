@@ -1,1 +1,33 @@
-p{font-size:16px;font-weight:300;line-height:1.8rem}strong{font-weight:600}h1{font-size:2.5rem;font-weight:600;line-height:2.9rem}h1.tuppence{font-family:"Tuppence",Helvetica,sans-serif;font-weight:700;font-style:italic}h2{font-size:1.5rem;font-weight:600;line-height:1.9rem}h3{font-size:1.3rem;font-weight:600;line-height:1.7rem}
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.8rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 2.9rem;
+}
+
+h1.tuppence {
+  font-family: "Tuppence", Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.9rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.7rem;
+}
