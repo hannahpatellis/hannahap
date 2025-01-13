@@ -175,4 +175,53 @@ kiss.page({
   slug: 'runaway'
 });
 
+kiss.page({
+  view: 'art/cstay_collection.hbs',
+  title: 'Can\'t Stop Thinking About You | Art by',
+  path: '/',
+  slug: 'cstay'
+});
+kiss.page({
+  view: 'art/wfy_collection.hbs',
+  title: 'Waiting for You | Art by',
+  path: '/',
+  slug: 'wfy'
+});
+kiss.page({
+  view: 'art/iconic_collection.hbs',
+  title: 'ICONIC | Art by',
+  path: '/',
+  slug: 'iconiccollection'
+});
+kiss.page({
+  view: 'art/untitledtrans_collection.hbs',
+  title: 'Untitled Trans Collection | Art by',
+  path: '/',
+  slug: 'untitledtranscollection'
+});
+kiss.page({
+  view: 'art/era_collection.hbs',
+  title: 'The Era | Art by',
+  path: '/',
+  slug: 'era'
+});
+kiss.page({
+  view: 'art/journeynorth_collection.hbs',
+  title: 'The Journey North | Art by',
+  path: '/',
+  slug: 'journeynorth'
+});
+kiss.page({
+  view: 'art/prolific.hbs',
+  title: 'PROlific Art Management Software by',
+  path: '/',
+  slug: 'prolific'
+});
+kiss.page({
+  view: 'art/showcase.hbs',
+  title: 'Showcase Hannah | Art by',
+  path: '/',
+  slug: 'showcase'
+});
+
 kiss.generate();
