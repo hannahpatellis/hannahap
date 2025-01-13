@@ -1,106 +1,48 @@
-main#stage-arts-entry {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-  article {
-    max-width: 400px;
-    margin-right: 50px;
-
-    p.art-entry-pdf {
-      margin-top: 20px;
-      font-size: .85rem;
-    }
-
-    div.nsfw, div.tag {
-      border-radius: var(--radius);
-      background-color: var(--haip-dred);
-      padding: 7px 20px 5px 20px;
-      margin-top: 1rem;
-      font-weight: 600;
-      color: var(--haip-light);
-      width: fit-content;
-    }
-
-    div.tag {
-      background-color: var(--haip-dblue);
-    }
-
-    div#actions {
-      border-radius: var(--radius);
-      background-color: var(--haip-lgray);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 40px;
-      min-width: 400px;
-
-      div.action-button-wrap {
-        height: calc(100% - 40px);
-        width: calc(100% - 40px);
-        padding: 20px;
-        transition: 0.5s;
-        border-radius: var(--radius);
-        
-        div {
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: center;
-
-          img {
-            height: 18px;
-            width: auto;
-            margin-left: 12px;
-          }
-        }
-      }
-
-      div.action-button-wrap:hover {
-        background-color: var(--haip-foam);
-        transition: 0.5s;
-      }
-    }
-  }
-  aside {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-    img {
-      width: 100%;
-      max-width: 350px;
-      height: auto;
-      border-radius: var(--radius);
-    }
-    img.cover-white {
-      border: 1px solid var(--haip-lgray);
-    }
+main#stage-art-entry {
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.9rem;
   }
 }
 
+section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: var(--haip-coral);
+  img {
+    height: 200px;
+  }
+}
+
+
 @media only screen and (max-width: 800px) {
-	main#stage-arts-entry {
-		flex-direction: column;
-    margin-top: 20%;
+	main#stage-art {
+		margin-top: 20%;
 
-    article {
-      margin-right: 0px;
-      margin-bottom: 50px;
-      width: 100%;
-
-      div#actions {
-        min-width: 100%;
-        flex-direction: column;
-
-        div.action-button-wrap {
-          padding: 20px;
-        }
-      }
+    section {
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-columns: 1fr;
     }
-    aside img {
-      width: 100%;
+    div.art-entry-blank {
+      display: none;
     }
+    div.art-entry-top-row {
+      grid-column: span 2;
+    }
+	}
+}
+
+@keyframes title-art-animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0 0;
   }
 }
