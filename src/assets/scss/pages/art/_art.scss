@@ -15,15 +15,14 @@ main#stage-art {
     animation: title-art-animate 15s;
     animation-iteration-count: infinite;
   }
-}
-
-section {
-  width: 100%;
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 4px;
-  background-color: var(--haip-coral);
+  section {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 4px;
+    background-color: var(--haip-coral);
+  }
 }
 div.art-entry {
   height: 100%;

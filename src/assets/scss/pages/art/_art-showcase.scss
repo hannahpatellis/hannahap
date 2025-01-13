@@ -22,7 +22,7 @@ main#stage-showcase {
       margin-top: 40px;
       min-width: 400px;
 
-      div.action-button-wrap {
+      div.action-button-wrap, div.action-button-container {
         height: calc(100% - 40px);
         width: calc(100% - 40px);
         padding: 20px;
@@ -42,7 +42,7 @@ main#stage-showcase {
         }
       }
 
-      div.action-button-wrap:hover {
+      div.action-button-wrap:hover, div.action-button-container:hover {
         background-color: var(--haip-foam);
         transition: 0.5s;
       }

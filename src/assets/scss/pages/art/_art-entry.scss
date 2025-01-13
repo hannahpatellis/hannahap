@@ -4,34 +4,22 @@ main#stage-art-entry {
     font-weight: 300;
     line-height: 1.9rem;
   }
-}
-
-section {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: var(--haip-coral);
-  img {
-    height: 200px;
+  section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    img {
+      height: 200px;
+      margin-bottom: 40px;
+    }
   }
 }
 
 
 @media only screen and (max-width: 800px) {
-	main#stage-art {
+	main#stage-art-entry {
 		margin-top: 20%;
-
-    section {
-      grid-template-rows: repeat(6, 1fr);
-      grid-template-columns: 1fr;
-    }
-    div.art-entry-blank {
-      display: none;
-    }
-    div.art-entry-top-row {
-      grid-column: span 2;
-    }
 	}
 }
 

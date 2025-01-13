@@ -194,12 +194,6 @@ kiss.page({
   slug: 'iconiccollection'
 });
 kiss.page({
-  view: 'art/untitledtrans_collection.hbs',
-  title: 'Untitled Trans Collection | Art by',
-  path: '/',
-  slug: 'untitledtranscollection'
-});
-kiss.page({
   view: 'art/era_collection.hbs',
   title: 'The Era | Art by',
   path: '/',
