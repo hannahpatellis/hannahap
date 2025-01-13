@@ -23,7 +23,13 @@ main#stage-art-entry {
 @media only screen and (max-width: 800px) {
 	main#stage-art-entry {
 		margin-top: 20%;
-	}
+    section {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
 }
 
 @keyframes title-art-animate {
