@@ -46,6 +46,9 @@ main#stage-showcase {
         background-color: var(--haip-foam);
         transition: 0.5s;
       }
+      div.action-button-container:hover {
+        border-radius: var(--radius);
+      }
 
       div.action-button-wrap:first-child {
         border-right: 4px solid var(--haip-light);

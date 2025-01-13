@@ -10,8 +10,12 @@ main#stage-art-entry {
     justify-content: space-around;
     flex-wrap: wrap;
     img {
-      height: 200px;
+      height: 350px;
       margin-bottom: 40px;
+      margin-right: 20px;
+    }
+    img:last-child {
+      margin-right: 0px;
     }
   }
 }
