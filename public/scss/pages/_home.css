@@ -1,1 +1,60 @@
-main#stage-home{display:flex;max-width:none;align-items:center;margin-bottom:40px;animation-name:fade-in;animation-timing-function:ease;animation-duration:1.5s}main#stage-home h1{font-size:4rem;line-height:4.5rem;animation-name:welcome-alt;animation-timing-function:ease;animation-duration:1.8s}main#stage-home h1:first-child{animation-name:welcome;animation-duration:1.9s}main#stage-home h2{font-size:2.5rem;line-height:2.9rem}main#stage-home p{font-size:1.5rem;line-height:2rem}main#stage-home span#home-delight-1{background:url("../images/grace_1.jpg") 0 0/cover no-repeat;color:var(--haip-dark);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:rgba(0,0,0,0)}main#stage-home span#home-delight-2{background:url("../images/grace_2.jpg") 0 0/cover no-repeat;color:var(--haip-dark);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:rgba(0,0,0,0)}@media only screen and (max-width: 800px){main#stage-home{margin-bottom:10px}main#stage-home h1{font-size:2.5rem;line-height:2.9rem}main#stage-home h2{font-size:2rem;line-height:2.5rem}main#stage-home p{font-size:1rem;line-height:1.5rem}}
+main#stage-home {
+  display: flex;
+  max-width: none;
+  align-items: center;
+  margin-bottom: 40px;
+  animation-name: fade-in;
+  animation-timing-function: ease;
+  animation-duration: 1.5s;
+}
+main#stage-home h1 {
+  font-size: 4rem;
+  line-height: 4.5rem;
+  animation-name: welcome-alt;
+  animation-timing-function: ease;
+  animation-duration: 1.8s;
+}
+main#stage-home h1:first-child {
+  animation-name: welcome;
+  animation-duration: 1.9s;
+}
+main#stage-home h2 {
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+}
+main#stage-home p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+main#stage-home span#home-delight-1 {
+  background: url("../images/grace_1.jpg") 0 0/cover no-repeat;
+  color: var(--haip-dark);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+main#stage-home span#home-delight-2 {
+  background: url("../images/grace_2.jpg") 0 0/cover no-repeat;
+  color: var(--haip-dark);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 800px) {
+  main#stage-home {
+    margin-bottom: 10px;
+  }
+  main#stage-home h1 {
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+  }
+  main#stage-home h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  main#stage-home p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
