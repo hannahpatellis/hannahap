@@ -1,1 +1,92 @@
-main#stage-about{margin-top:10%;display:flex;align-items:center;justify-content:center}main#stage-about img#headshot{width:350px;height:auto;border-radius:var(--radius)}main#stage-about article{margin-right:50px;min-width:350px}main#stage-about article div#actions{border-radius:var(--radius);background-color:var(--haip-lgray);display:flex;align-items:center;justify-content:center;margin-top:40px;min-width:400px}main#stage-about article div#actions div.action-button-wrap{height:calc(100% - 40px);width:calc(100% - 40px);padding:20px;transition:.5s}main#stage-about article div#actions div.action-button-wrap div{display:flex;flex-direction:row;align-items:center;justify-content:center}main#stage-about article div#actions div.action-button-wrap div img{height:18px;width:auto;margin-left:12px}main#stage-about article div#actions div.action-button-wrap:hover{background-color:var(--haip-foam);transition:.5s}main#stage-about article div#actions div.action-button-wrap:first-child{border-right:4px solid var(--haip-light);border-radius:var(--radius) 0 0 var(--radius)}main#stage-about article div#actions div.action-button-wrap:last-child{border-radius:0 var(--radius) var(--radius) 0}main#stage-about aside{display:flex;align-items:center;justify-content:center;flex-direction:column}@media only screen and (min-width: 1600px){main#stage-about{margin-top:5%}}@media only screen and (max-width: 800px){main#stage-about{flex-direction:column}main#stage-about img#headshot{width:100%}main#stage-about article{margin-right:0px;margin-bottom:50px;min-width:auto}main#stage-about article div#actions{min-width:100%;flex-direction:column}main#stage-about article div#actions div.action-button-wrap{padding:20px}main#stage-about article div#actions div.action-button-wrap:first-child{border-right:none;border-bottom:4px solid var(--haip-light);border-radius:var(--radius) var(--radius) 0 0}main#stage-about article div#actions div.action-button-wrap:last-child{border-radius:0 0 var(--radius) var(--radius)}}
+main#stage-about {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main#stage-about img#headshot {
+  width: 350px;
+  height: auto;
+  border-radius: var(--radius);
+}
+main#stage-about article {
+  margin-right: 50px;
+  min-width: 350px;
+}
+main#stage-about article div#actions {
+  border-radius: var(--radius);
+  background-color: var(--haip-lgray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  min-width: 400px;
+}
+main#stage-about article div#actions div.action-button-wrap {
+  height: calc(100% - 40px);
+  width: calc(100% - 40px);
+  padding: 20px;
+  transition: 0.5s;
+}
+main#stage-about article div#actions div.action-button-wrap div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+main#stage-about article div#actions div.action-button-wrap div img {
+  height: 18px;
+  width: auto;
+  margin-left: 12px;
+}
+main#stage-about article div#actions div.action-button-wrap:hover {
+  background-color: var(--haip-foam);
+  transition: 0.5s;
+}
+main#stage-about article div#actions div.action-button-wrap:first-child {
+  border-right: 4px solid var(--haip-light);
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+main#stage-about article div#actions div.action-button-wrap:last-child {
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+main#stage-about aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1600px) {
+  main#stage-about {
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  main#stage-about {
+    flex-direction: column;
+  }
+  main#stage-about img#headshot {
+    width: 100%;
+  }
+  main#stage-about article {
+    margin-right: 0px;
+    margin-bottom: 50px;
+    min-width: auto;
+  }
+  main#stage-about article div#actions {
+    min-width: 100%;
+    flex-direction: column;
+  }
+  main#stage-about article div#actions div.action-button-wrap {
+    padding: 20px;
+  }
+  main#stage-about article div#actions div.action-button-wrap:first-child {
+    border-right: none;
+    border-bottom: 4px solid var(--haip-light);
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+  main#stage-about article div#actions div.action-button-wrap:last-child {
+    border-radius: 0 0 var(--radius) var(--radius);
+  }
+}
