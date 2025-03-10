@@ -18,7 +18,7 @@ main#stage-art {
   section {
     width: 100%;
     display: grid;
-    grid-template-rows: 300px 1fr 1fr;
+    grid-template-rows: 200px 1fr 1fr;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 4px;
     background-color: var(--haip-coral);
@@ -83,13 +83,37 @@ div.art-entry img.art-cover-sm {
   width: 20%;
 }
 
+@media only screen and (max-width: 1050px) {
+  h3 {
+    font-size: 1rem;
+  }
+}
+
 @media only screen and (max-width: 800px) {
 	main#stage-art {
 		margin-top: 20%;
 
     section {
-      grid-template-rows: repeat(3, 300px) repeat(5, 1fr);
+      grid-template-rows: repeat(3, 150px) repeat(5, 1fr);
       grid-template-columns: 1fr;
+
+      div.entry-high-level {
+        div.art-entry-inner {
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+
+          h3 {
+            font-size: 1.2rem;
+            margin-top: 0;
+          }
+          img {
+            margin-right: 20px;
+            height: 40px;
+            width: 40px;
+          }
+        }
+      }
     }
     div.art-entry-blank {
       display: none;
