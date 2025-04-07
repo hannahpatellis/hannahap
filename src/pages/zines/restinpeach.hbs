@@ -1,0 +1,41 @@
+{{#extend "layout"}}
+  {{#content "body"}}
+    {{>"nav" activeProMode=false}}
+
+    <main id="stage-zines-entry">
+      <article>
+        <div class="tag mb-2">New</div>
+        <p></p>
+        <p class="zine-entry-pdf">A .pdf copy of this zine is available upon request</p>
+        
+        <!-- <div id="actions">
+          <div class="action-button-wrap">
+            <a href="https://hannahap.com/shop.html" title="Buy a physical copy of the 'Runaway' zine">
+              <div>
+                <div>Buy a print copy</div>
+                <div><img src="images/circle-arrow-right-dblue.svg" alt="Buy a physical copy of the 'Runaway' zine" /></div>
+              </div>
+            </a>
+          </div>
+        </div> -->
+
+        <div id="actions">
+          <div class="action-button-wrap">
+            <a href="https://go.hannahap.com/peach/index.html" title="Download a copy of the 'Rest in Peach' zine">
+              <div>
+                <div>Download the zine</div>
+                <div><img src="images/circle-arrow-right-dblue.svg" alt="Download a copy of the 'Rest in Peach' zine" /></div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </article>
+      <aside>
+        <img id="cover" src="images/zines/restinpeach_full.jpg" alt="'Rest in Peach' zine cover featuring a full-page photo of an orange cat loafed on a bed with a green blanket, looking out the window. The title is in serif letters and gently is glowing white." />
+      </aside>
+    </main>
+
+    {{>"footer"}}
+  {{/content}}
+{{/extend}}

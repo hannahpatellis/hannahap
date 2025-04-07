@@ -174,6 +174,12 @@ kiss.page({
   path: '/',
   slug: 'cathedral'
 });
+kiss.page({
+  view: 'zines/restinpeach.hbs',
+  title: 'Rest in Peach | Zines by',
+  path: '/',
+  slug: 'restinpeach'
+});
 
 kiss.page({
   view: 'art/cstay_collection.hbs',
