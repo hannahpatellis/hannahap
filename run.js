@@ -168,6 +168,12 @@ kiss.page({
   path: '/',
   slug: 'runaway'
 });
+kiss.page({
+  view: 'zines/cathedral.hbs',
+  title: 'Cathedral | Zines by',
+  path: '/',
+  slug: 'cathedral'
+});
 
 kiss.page({
   view: 'art/cstay_collection.hbs',
